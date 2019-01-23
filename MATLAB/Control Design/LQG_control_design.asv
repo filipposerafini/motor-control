@@ -1,0 +1,14 @@
+%motor params_________________________________________________________
+R = 1.15; % [Ohm] Motor armature Resistence
+L = 1.5*10^(-3); % [Henry] Motor armature Inductance 
+K = 0.383; % [V/rad/s] Back electromotive force coefficient 
+I = 0.0021; % [Kg*m^2] Equivalent moment of inertia
+B = 0.0088; % [N*m*s/rad] Equivalent viscous damping coefficient
+
+%equilibium__________________________________________________________
+teta_eq = 0; % [rad] angular position of motor shaft
+omega_eq = 0; % [rad/s] angular speed of motor shaft
+i_eq = (B/k)*omega_eq; % [A] current of motor circuit
+v_eq = R*i_eq + K*omega_eq; % [V] input voltage of motor circuit 
+
+%linearization______________________________________________________
