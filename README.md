@@ -6,4 +6,4 @@
 
 Distributed under the [MIT](LICENSE) license.
 
-Copyright &copy; 2019, [Filippo Serafini](https://filipposerafini.github.io/)
+Copyright &copy; 2019, [Filippo Serafini](https://filipposerafini.github.io/), Angelo D'Aloia
