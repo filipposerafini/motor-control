@@ -10,8 +10,13 @@ B = 0.0088; % [N*m*s/rad] Equivalent viscous damping coefficient
 PPR = 1000; % ENCODER pulses per revolution
 ADC_Vref = 3.3; % [V] reference voltage of the ADC
 ADC_bits = 12; % resolution (number of bits) of the adc
-PU_gain = 0.5; % current sensor conversion gain
-PU_offset = 1; % current sesnsor conversion offset
+current_gain = 0.5; % current sensor conversion gain
+current_offset = 1; % current sesnsor conversion offset
+omega_gain = 0.5; % omega ref sensor conversion gain
+omega_offset = 1; % omega sensor conversion offset
+
+%actuation
+Vact = 12; % [V] amplitude af actuation PWM applied to the motor
 
 %LQR tuning
 omega_max = 20; % [rad/sec] maximum admitted angular speed
