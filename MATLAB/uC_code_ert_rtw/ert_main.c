@@ -7,15 +7,16 @@
  *
  * Code generated for Simulink model 'uC_code'.
  *
- * Model version                  : 1.3
+ * Model version                  : 1.4
  * Simulink Coder version         : 9.0 (R2018b) 24-May-2018
- * C/C++ source code generated on : Sat Jan 26 11:55:46 2019
+ * C/C++ source code generated on : Sat Jan 26 17:42:54 2019
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: ARM Compatible->ARM Cortex
  * Code generation objectives:
- *    1. RAM efficiency
- *    2. Execution efficiency
+ *    1. MISRA C:2012 guidelines
+ *    2. RAM efficiency
+ *    3. Execution efficiency
  * Validation result: Not run
  */
 
@@ -62,12 +63,11 @@ int main(void)
   uC_code_initialize();
   ARMCM_SysTick_Config(modelBaseRate);
   runModel =
-    (rtmGetErrorStatus(rtM) == (NULL)) && !rtmGetStopRequested(rtM);
+    rtmGetErrorStatus(rtM) == (NULL);
   __enable_irq();
   while (runModel) {
     stopRequested = !(
-                      (rtmGetErrorStatus(rtM) == (NULL)) && !rtmGetStopRequested
-                      (rtM));
+                      rtmGetErrorStatus(rtM) == (NULL));
     runModel = !(stopRequested);
   }
 
