@@ -14,7 +14,7 @@ motorParameters.range('R', [1e-1 1e2]) ...
                .range('Jm', [1e-8 1e-4]); 
 
 %--Motor Parameters (SIL)----------------------------------------
-R = 65; % [Ohm] Motor armature Resistence
+Ra = 65; % [Ohm] Motor armature Resistence
 L = 1.41e-3; % [Henry] Motor armature Inductance 
 Km = 2.55e-2; % [V/rad/s] Back electromotive force coefficient 
 I = 7.2e-8; % [Kg*m^2] Equivalent moment of inertia
@@ -37,11 +37,6 @@ omega_max = 20; % [rad/sec] maximum admitted angular speed
 i_max = 20; % [A] maximum admitted current
 int_max = 2; % integral error maximum
 v_max = 10; % [V] maximum admitted input voltage
-
-%--State and Output Penalization---------------------------------
-%Q = 1/2*inv([(omega_max)^2 0; 0 (i_max)^2; 0 0 (int_max)^2]);
-Q = 1/2*inv([(omega_max)^2 0; 0 (i_max)^2]);
-R = inv([(v_max)^2]);
 
 A = [-Bm/I Km/I; -Km/L -R/L];
 B = [0; 1/L];
