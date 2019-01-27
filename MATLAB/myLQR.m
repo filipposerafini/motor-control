@@ -1,4 +1,4 @@
-function K=myLQR(R, L, Km, Bm, I, omega_max, i_max, v_max)
+function K = myLQR(R, L, Km, Bm, I, omega_max, i_max, v_max)
 
 %---System Matrices----------------------------------------------
 %---| x = Ax + Bu |----------------------------------------------
@@ -20,3 +20,4 @@ H=[A -G; -Q -A'];
 Sinf=U(n+1:end,1:n)*U(1:n,1:n)^-1;
 
 K=-(1/R).*B'*Sinf;
+

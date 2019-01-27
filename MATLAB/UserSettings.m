@@ -37,7 +37,3 @@ omega_max = 20; % [rad/sec] maximum admitted angular speed
 i_max = 20; % [A] maximum admitted current
 int_max = 2; % integral error maximum
 v_max = 10; % [V] maximum admitted input voltage
-
-A = [-Bm/I Km/I; -Km/L -R/L];
-B = [0; 1/L];
-C = [1 0];

@@ -1,7 +1,7 @@
 %USER SETTINGS________________________________________________________
 %motor params
-R = 1.15; % [Ohm] Motor armature Resistence
-L = 1.5*10^(-3); % [Henry] Motor armature Inductance 
+R = 2; % [Ohm] Motor armature Resistence
+L = 2*10^(-3); % [Henry] Motor armature Inductance 
 K = 0.383; % [V/rad/s] Back electromotive force coefficient 
 I = 0.0021; % [Kg*m^2] Equivalent moment of inertia
 B = 0.0088; % [N*m*s/rad] Equivalent viscous damping coefficient
@@ -21,7 +21,7 @@ Vact = 12; % [V] amplitude af actuation PWM applied to the motor
 %LQR tuning
 omega_max = 20; % [rad/sec] maximum admitted angular speed
 i_max = 20; % [A] maximum admitted current
-int_max = 2; % integral error maximum
+%int_max = 0.5; % integral error maximum
 v_max = 10; % [V] maximum admitted input voltage
 
 %linsys matrices_____________________________________________________
@@ -31,6 +31,12 @@ A = [-B/I K/I; -K/L -R/L];
 B = [0; 1/L];
 C = [1 0];
 
+ai12 = zeros(2,1);
+ai22 = 0;
+
+Ai = [A ai12; -C ai22];
+Bi = [B; 0];
+
 if(rank(ctrb(A,B))~=2) % reachability check
     disp("system not fully reachable");
     %perform some actions (e.g. led blinking)
@@ -38,10 +44,10 @@ else disp("system fully reachable");
 end    
    
 %LQR controller______________________________________________________
-Q = 1/2*inv([(omega_max)^2 0 ; 0 (i_max)^2]); % state penalization
+Q = (1/3)*inv([(omega_max)^2 0  ; 0 (i_max)^2]); % state penalization
 R = inv([(v_max)^2]); % input penalization
 %sys = ss(A,B,C,0);
-%[K_m,S,e] = lqr(sys,Q,R) % gain K computation
+%[K_m,S,e] = lqi(sys,Q,R) % gain K computation
 %K = -K;
 %RICCATI  Solves an algebraic Riccati equation
 %   X = Riccati(A,G,Q) solves the algebraic Riccati equation of the form:
@@ -53,12 +59,13 @@ R = inv([(v_max)^2]); % input penalization
    H = [A -G; -Q -A'];
 
    [U1,S1] = schur(H);
-   %[U,S]=ordschur(U1,S1,'lhp');
+   [U,S] = ordschur(U1,S1,'lhp');
 
    X = U(n+1:end,1:n)*U(1:n,1:n)^-1;
 %end RICCATI
-%[Sc,L,J] = care(A,B,Q,R);
+[Sc,L,J] = care(A,B,Q,R);
 Sinf = X;
    
 K = -(1/R).*B'*Sinf
+Kref = -2*inv(C*inv(A)*B)
 %Kc = -(1/R).*B'*Sc
