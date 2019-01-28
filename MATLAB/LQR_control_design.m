@@ -21,6 +21,7 @@ Vact = 12; % [V] amplitude af actuation PWM applied to the motor
 %LQR tuning
 omega_max = 20; % [rad/sec] maximum admitted angular speed
 i_max = 20; % [A] maximum admitted current
+D = 1.8; % Perchè si
 %int_max = 0.5; % integral error maximum
 v_max = 10; % [V] maximum admitted input voltage
 
@@ -67,5 +68,6 @@ R = inv([(v_max)^2]); % input penalization
 Sinf = X;
    
 K = -(1/R).*B'*Sinf
-Kref = -2*inv(C*inv(A)*B)
+%Kref = -2*inv(C*inv(A)*B)
+Kref = -D*inv(C*inv(A+B*K)*B)
 %Kc = -(1/R).*B'*Sc
