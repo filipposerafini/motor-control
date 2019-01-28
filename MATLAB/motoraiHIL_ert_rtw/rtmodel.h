@@ -7,9 +7,9 @@
  *
  * Code generated for Simulink model 'motoraiHIL'.
  *
- * Model version                  : 1.5
+ * Model version                  : 1.6
  * Simulink Coder version         : 9.0 (R2018b) 24-May-2018
- * C/C++ source code generated on : Mon Jan 28 13:34:17 2019
+ * C/C++ source code generated on : Mon Jan 28 22:54:52 2019
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: ARM Compatible->ARM Cortex

@@ -32,7 +32,7 @@ omega_gain = 0.5; % omega ref sensor conversion gain
 omega_offset = 1; % omega sensor conversion offset
 
 %--Actuation-----------------------------------------------------
-V_ACT = 1000; % [V] amplitude af actuation PWM applied to the motor
+V_ACT = 12; % [V] amplitude af actuation PWM applied to the motor
 
 %--LQR tuning----------------------------------------------------
 omega_max = 20; % [rad/sec] maximum admitted angular speed
