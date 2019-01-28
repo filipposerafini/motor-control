@@ -9,14 +9,7 @@
  *
  * Model version                  : 1.6
  * Simulink Coder version         : 9.0 (R2018b) 24-May-2018
- * C/C++ source code generated on : Mon Jan 28 22:54:52 2019
- *
- * Target selection: ert.tlc
- * Embedded hardware selection: ARM Compatible->ARM Cortex
- * Code generation objectives:
- *    1. RAM efficiency
- *    2. Execution efficiency
- * Validation result: Not run
+ * C/C++ source code generated on : Mon Jan 28 23:02:08 2019
  */
 
 #ifndef ZERO_CROSSING_TYPES_H

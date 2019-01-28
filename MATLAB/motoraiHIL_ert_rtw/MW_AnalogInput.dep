@@ -1,7 +1,7 @@
 MW_AnalogInput.o: \
  C:/ProgramData/MATLAB/SupportPackages/R2018b/toolbox/target/supportpackages/mbed/src/MW_AnalogInput.cpp \
  C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/toolbox/target/SUPPOR~1/mbed/include/mw_mbed_interface.h \
- C:/Users/Filippo/Documents/motor-control/MATLAB/motoraiHIL_ert_rtw/rtwtypes.h \
+ C:/Users/Filippo/Documents/motor-control/MATLAB/slprj/ert/_sharedutils/rtwtypes.h \
  C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/mbed.h \
  C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/platform/mbed_toolchain.h \
  C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/platform/mbed_preprocessor.h \
@@ -176,7 +176,7 @@ MW_AnalogInput.o: \
 
 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/toolbox/target/SUPPOR~1/mbed/include/mw_mbed_interface.h:
 
-C:/Users/Filippo/Documents/motor-control/MATLAB/motoraiHIL_ert_rtw/rtwtypes.h:
+C:/Users/Filippo/Documents/motor-control/MATLAB/slprj/ert/_sharedutils/rtwtypes.h:
 
 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/mbed.h:
 

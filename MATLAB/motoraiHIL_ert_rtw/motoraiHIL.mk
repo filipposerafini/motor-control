@@ -2,7 +2,7 @@
 ## Makefile generated for Simulink model 'motoraiHIL'. 
 ## 
 ## Makefile     : motoraiHIL.mk
-## Generated on : Mon Jan 28 13:34:42 2019
+## Generated on : Mon Jan 28 23:02:17 2019
 ## MATLAB Coder version: 4.1 (R2018b)
 ## 
 ## Build Info:
@@ -23,6 +23,7 @@
 # COMPUTER                Computer type. See the MATLAB "computer" command.
 # COMPILER_COMMAND_FILE   Compiler command listing model reference header paths
 # CMD_FILE                Command file
+# SHARED_OBJS             Shared Object Names
 
 PRODUCT_NAME              = motoraiHIL
 MAKEFILE                  = motoraiHIL.mk
@@ -43,6 +44,12 @@ COMPILER_COMMAND_FILE     = motoraiHIL_comp.rsp
 CMD_FILE                  = motoraiHIL.rsp
 C_STANDARD_OPTS           = 
 CPP_STANDARD_OPTS         = 
+SHARED_SRC_DIR            = ../slprj/ert/_sharedutils
+SHARED_SRC                = $(SHARED_SRC_DIR)/*.c
+SHARED_BIN_DIR            = ../slprj/ert/_sharedutils
+SHARED_LIB                = $(SHARED_BIN_DIR)/rtwshared.lib
+SHARED_OBJS               =  \
+$(addprefix $(join $(SHARED_BIN_DIR),/), $(addsuffix .o, $(basename $(notdir $(wildcard $(SHARED_SRC_DIR)/*.c)))))
 
 ###########################################################################
 ## TOOLCHAIN SPECIFICATIONS
@@ -155,9 +162,9 @@ ECHO                = @echo
 MV                  = @move
 RUN                 =
 
-#----------------------------------------
-# "Faster Builds" Build Configuration
-#----------------------------------------
+#--------------------------------------
+# "Faster Runs" Build Configuration
+#--------------------------------------
 
 ARFLAGS              = ruvs
 ASFLAGS              = -MMD -MP -MF"$(@:%.o=%.dep)" -MT"$@"  \
@@ -172,7 +179,7 @@ CFLAGS               = $(FDATASECTIONS_FLG) \
                        -Wall \
                        -MMD -MP -MF"$(@:%.o=%.dep)" -MT"$@"  \
                        -c \
-                       -O0
+                       -O3
 CPPFLAGS             = -std=c++98 \
                        -fno-rtti \
                        -fno-exceptions \
@@ -180,7 +187,7 @@ CPPFLAGS             = -std=c++98 \
                        -Wall \
                        -MMD -MP -MF"$(@:%.o=%.dep)" -MT"$@"  \
                        -c \
-                       -O0
+                       -O3
 CPP_LDFLAGS          = -Wl,--gc-sections \
                        -Wl,-Map="$(PRODUCT_NAME).map"
 CPP_SHAREDLIB_LDFLAGS  =
@@ -237,7 +244,7 @@ BUILD_TYPE = "Top-Level Standalone Executable"
 ## INCLUDE PATHS
 ###########################################################################
 
-INCLUDES_BUILDINFO = -I$(START_DIR) -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/toolbox/target/shared/svd/include -I$(START_DIR)/motoraiHIL_ert_rtw -I$(MATLAB_ROOT)/extern/include -I$(MATLAB_ROOT)/simulink/include -I$(MATLAB_ROOT)/rtw/c/src -I$(MATLAB_ROOT)/rtw/c/src/ext_mode/common -I$(MATLAB_ROOT)/rtw/c/ert -I$(MATLAB_ROOT)/toolbox/dsp/include -I$(MATLAB_ROOT)/toolbox/dsp/extern/src/export/include/src -I$(MATLAB_ROOT)/toolbox/dsp/extern/src/export/include -I$(MATLAB_ROOT)/toolbox/shared/dsp/vision/matlab/include -I$(MATLAB_ROOT)/toolbox/physmod/powersys/facts/facts -I$(MATLAB_ROOT)/toolbox/physmod/powersys/DR/DR -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1 -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TAE543~1 -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TAE543~1/TARGET~1 -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TAE543~1/TARGET~1/TARGET~1 -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TAE543~1/TARGET~1/TARGET~1/TARGET~1 -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TAE543~1/TARGET~1/TARGET~1/TARGET~1/TARGET~1 -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TAE543~1/TARGET~1/TARGET~1/TARGET~1/device -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TAE543~1/TARGET~1/TARGET~1/device -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TAE543~1/TOOLCH~3 -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/drivers -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/hal -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/platform -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/toolbox/target/SUPPOR~1/STMNUC~1/include -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/toolbox/target/SUPPOR~1/mbed/include -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/toolbox/target/SUPPOR~1/STMNUC~1/STCFCA~1/include -I$(MATLAB_ROOT)/rtw/c/src/ext_mode/serial -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/toolbox/target/SUPPOR~1/ARMCOR~1/SCHEDU~1/include -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/toolbox/target/SUPPOR~1/ARMCOR~1/xcp/include
+INCLUDES_BUILDINFO = -I$(START_DIR) -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/toolbox/target/shared/svd/include -I$(START_DIR)/motoraiHIL_ert_rtw -I$(MATLAB_ROOT)/extern/include -I$(MATLAB_ROOT)/simulink/include -I$(MATLAB_ROOT)/rtw/c/src -I$(MATLAB_ROOT)/rtw/c/src/ext_mode/common -I$(MATLAB_ROOT)/rtw/c/ert -I$(MATLAB_ROOT)/toolbox/dsp/include -I$(MATLAB_ROOT)/toolbox/dsp/extern/src/export/include/src -I$(MATLAB_ROOT)/toolbox/dsp/extern/src/export/include -I$(MATLAB_ROOT)/toolbox/shared/dsp/vision/matlab/include -I$(MATLAB_ROOT)/toolbox/physmod/powersys/facts/facts -I$(MATLAB_ROOT)/toolbox/physmod/powersys/DR/DR -I$(START_DIR)/slprj/ert/_sharedutils -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1 -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TAE543~1 -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TAE543~1/TARGET~1 -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TAE543~1/TARGET~1/TARGET~1 -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TAE543~1/TARGET~1/TARGET~1/TARGET~1 -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TAE543~1/TARGET~1/TARGET~1/TARGET~1/TARGET~1 -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TAE543~1/TARGET~1/TARGET~1/TARGET~1/device -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TAE543~1/TARGET~1/TARGET~1/device -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TAE543~1/TOOLCH~3 -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/drivers -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/hal -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/platform -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/toolbox/target/SUPPOR~1/STMNUC~1/include -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/toolbox/target/SUPPOR~1/mbed/include -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/toolbox/target/SUPPOR~1/STMNUC~1/STCFCA~1/include -I$(MATLAB_ROOT)/rtw/c/src/ext_mode/serial -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/toolbox/target/SUPPOR~1/ARMCOR~1/SCHEDU~1/include -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/toolbox/target/SUPPOR~1/ARMCOR~1/xcp/include
 
 INCLUDES = $(INCLUDES_BUILDINFO)
 
@@ -283,7 +290,7 @@ PREBUILT_OBJS =
 ## LIBRARIES
 ###########################################################################
 
-LIBS = C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/cmsis.instrset/CMSIS/Lib/GCC/libarm_cortexM4lsf_math.a
+LIBS = $(SHARED_LIB) C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/cmsis.instrset/CMSIS/Lib/GCC/libarm_cortexM4lsf_math.a
 
 ###########################################################################
 ## SYSTEM LIBRARIES
@@ -667,6 +674,21 @@ SysTickScheduler.o : C:/ProgramData/MATLAB/SupportPackages/R2018b/toolbox/target
 
 m3m4m4f_multitasking.o : C:/ProgramData/MATLAB/SupportPackages/R2018b/toolbox/target/supportpackages/armcortexmbase/scheduler/src/m3m4m4f_multitasking.c
 	$(CC) $(CFLAGS) -o $@ $<
+
+
+$(SHARED_BIN_DIR)/%.o : $(SHARED_SRC_DIR)/%.c
+	@echo "### Compiling $< ..."
+	$(CC) $(CFLAGS) -o $@ $<
+
+
+#---------------------------
+# SHARED UTILITY LIBRARY
+#---------------------------
+
+$(SHARED_LIB) : $(SHARED_OBJS)
+	@echo "### Creating shared utilities library "$(SHARED_LIB)" ..."
+	$(AR) $(ARFLAGS)  $(SHARED_LIB) $(SHARED_OBJS)
+	@echo "### Created: $(SHARED_LIB)"
 
 
 ###########################################################################

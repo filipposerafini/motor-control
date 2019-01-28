@@ -9,19 +9,19 @@
  *
  * Model version                  : 1.6
  * Simulink Coder version         : 9.0 (R2018b) 24-May-2018
- * C/C++ source code generated on : Mon Jan 28 22:54:52 2019
+ * C/C++ source code generated on : Mon Jan 28 23:02:08 2019
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: ARM Compatible->ARM Cortex
  * Code generation objectives:
- *    1. RAM efficiency
- *    2. Execution efficiency
+ *    1. MISRA C:2012 guidelines
+ *    2. RAM efficiency
+ *    3. Execution efficiency
  * Validation result: Not run
  */
 
 #ifndef RTW_HEADER_motoraiHIL_h_
 #define RTW_HEADER_motoraiHIL_h_
-#include <stddef.h>
 #include "rtwtypes.h"
 #include "zero_crossing_types.h"
 #include <math.h>
@@ -38,6 +38,9 @@
 #endif                                 /* motoraiHIL_COMMON_INCLUDES_ */
 
 #include "MW_target_hardware_resources.h"
+#include "rtGetNaN.h"
+#include "rt_nonfinite.h"
+#include "rtGetInf.h"
 
 /* Macros for accessing real-time model data structure */
 #ifndef rtmGetErrorStatus
@@ -153,6 +156,8 @@ typedef struct {
   real_T RateTransition8_Buffer0;      /* '<Root>/Rate Transition8' */
   real_T RateTransition1_Buffer0_k;    /* '<S1>/Rate Transition1' */
   real_T RateTransition6_Buffer0;      /* '<S8>/Rate Transition6' */
+  real_T denAccum;
+  real_T R;
   real_T Ampere;                       /* '<S1>/Add' */
   real_T rad;                          /* '<S8>/Gain' */
   real_T d0;
@@ -312,7 +317,6 @@ typedef struct {
   real_T d154;
   real_T d155;
   real_T d156;
-  real_T d157;
   real_T rtb_netsum_tmp;
   real_T rtb_netsum_k;
   real_T B_idx_1;
@@ -320,8 +324,7 @@ typedef struct {
   real_T A_idx_2;
   real_T A_idx_1;
   real_T A_idx_3;
-  real_T U_tmp;
-  real_T U_tmp_c;
+  real_T A_tmp;
   real_T tst;
   real_T htmp2;
   real_T ba;
@@ -337,20 +340,20 @@ typedef struct {
   real_T bcmis;
   real_T scale;
   real_T z;
-  real_T tau_b;
+  real_T tau_c;
   real_T a;
   real_T alpha1;
   real_T b;
   real_T xnorm;
   real_T xnorm_tmp;
   real_T c;
-  real_T xnorm_p;
-  real_T scale_c;
+  real_T xnorm_b;
+  real_T scale_p;
   real_T absxk;
   real_T t;
   real_T temp;
+  real_T temp_c;
   real_T temp_f;
-  real_T temp_g;
   struct {
     int_T indPs;
     int_T bufSz;

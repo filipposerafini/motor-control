@@ -721,6 +721,8 @@ function RTW_rtwnameSIDMap() {
 	this.sidHashMap["motoraiHIL:627"] = {rtwname: "<S8>/Rate Transition6"};
 	this.rtwnameHashMap["<S8>/Terminator"] = {sid: "motoraiHIL:613"};
 	this.sidHashMap["motoraiHIL:613"] = {rtwname: "<S8>/Terminator"};
+	this.rtwnameHashMap["<S8>/Terminator1"] = {sid: "motoraiHIL:633"};
+	this.sidHashMap["motoraiHIL:633"] = {rtwname: "<S8>/Terminator1"};
 	this.rtwnameHashMap["<S8>/omega"] = {sid: "motoraiHIL:614"};
 	this.sidHashMap["motoraiHIL:614"] = {rtwname: "<S8>/omega"};
 	this.rtwnameHashMap["<S9>/Digital Read"] = {sid: "motoraiHIL:619"};

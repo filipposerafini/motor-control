@@ -1,0 +1,8 @@
+../slprj/ert/_sharedutils/MWDSP_EPH_R_B.o: \
+ ../slprj/ert/_sharedutils/MWDSP_EPH_R_B.c \
+ ../slprj/ert/_sharedutils/rtwtypes.h \
+ ../slprj/ert/_sharedutils/MWDSP_EPH_R_B.h
+
+../slprj/ert/_sharedutils/rtwtypes.h:
+
+../slprj/ert/_sharedutils/MWDSP_EPH_R_B.h:

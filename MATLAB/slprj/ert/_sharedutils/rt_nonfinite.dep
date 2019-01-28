@@ -1,0 +1,14 @@
+../slprj/ert/_sharedutils/rt_nonfinite.o: \
+ ../slprj/ert/_sharedutils/rt_nonfinite.c \
+ ../slprj/ert/_sharedutils/rt_nonfinite.h \
+ ../slprj/ert/_sharedutils/rtwtypes.h \
+ ../slprj/ert/_sharedutils/rtGetNaN.h \
+ ../slprj/ert/_sharedutils/rtGetInf.h
+
+../slprj/ert/_sharedutils/rt_nonfinite.h:
+
+../slprj/ert/_sharedutils/rtwtypes.h:
+
+../slprj/ert/_sharedutils/rtGetNaN.h:
+
+../slprj/ert/_sharedutils/rtGetInf.h:

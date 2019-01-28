@@ -1,7 +1,9 @@
-ert_main.o: ert_main.c motoraiHIL.h rtwtypes.h zero_crossing_types.h \
+ert_main.o: ert_main.c motoraiHIL.h \
+ C:/Users/Filippo/Documents/motor-control/MATLAB/slprj/ert/_sharedutils/rtwtypes.h \
+ C:/Users/Filippo/Documents/motor-control/MATLAB/slprj/ert/_sharedutils/zero_crossing_types.h \
+ C:/Users/Filippo/Documents/motor-control/MATLAB/slprj/ert/_sharedutils/rtwtypes.h \
  C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/toolbox/target/shared/svd/include/MW_AnalogIn.h \
  C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/toolbox/target/shared/svd/include/MW_SVD.h \
- C:/Users/Filippo/Documents/motor-control/MATLAB/motoraiHIL_ert_rtw/rtwtypes.h \
  C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/toolbox/target/SUPPOR~1/STMNUC~1/STCFCA~1/include/MW_MbedPinInterface.h \
  C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/toolbox/target/shared/svd/include/MW_digitalIO.h \
  C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/toolbox/target/shared/svd/include/MW_PWM.h \
@@ -78,19 +80,23 @@ ert_main.o: ert_main.c motoraiHIL.h rtwtypes.h zero_crossing_types.h \
  C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/toolbox/target/SUPPOR~1/ARMCOR~1/SCHEDU~1/include/SysTickScheduler.h \
  C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/toolbox/target/SUPPOR~1/ARMCOR~1/SCHEDU~1/include/arm_cortex_m_multitasking.h \
  C:/Users/Filippo/Documents/motor-control/MATLAB/motoraiHIL_ert_rtw/MW_target_hardware_resources.h \
+ C:/Users/Filippo/Documents/motor-control/MATLAB/slprj/ert/_sharedutils/rtGetNaN.h \
+ C:/Users/Filippo/Documents/motor-control/MATLAB/slprj/ert/_sharedutils/rt_nonfinite.h \
+ C:/Users/Filippo/Documents/motor-control/MATLAB/slprj/ert/_sharedutils/rt_nonfinite.h \
+ C:/Users/Filippo/Documents/motor-control/MATLAB/slprj/ert/_sharedutils/rtGetInf.h \
  C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/toolbox/target/shared/svd/include/MW_SVD.h
 
 motoraiHIL.h:
 
-rtwtypes.h:
+C:/Users/Filippo/Documents/motor-control/MATLAB/slprj/ert/_sharedutils/rtwtypes.h:
 
-zero_crossing_types.h:
+C:/Users/Filippo/Documents/motor-control/MATLAB/slprj/ert/_sharedutils/zero_crossing_types.h:
+
+C:/Users/Filippo/Documents/motor-control/MATLAB/slprj/ert/_sharedutils/rtwtypes.h:
 
 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/toolbox/target/shared/svd/include/MW_AnalogIn.h:
 
 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/toolbox/target/shared/svd/include/MW_SVD.h:
-
-C:/Users/Filippo/Documents/motor-control/MATLAB/motoraiHIL_ert_rtw/rtwtypes.h:
 
 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/toolbox/target/SUPPOR~1/STMNUC~1/STCFCA~1/include/MW_MbedPinInterface.h:
 
@@ -243,5 +249,13 @@ C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/toolbox/target/SUPPOR~1/ARMCOR~1/SCHEDU~1/inc
 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/toolbox/target/SUPPOR~1/ARMCOR~1/SCHEDU~1/include/arm_cortex_m_multitasking.h:
 
 C:/Users/Filippo/Documents/motor-control/MATLAB/motoraiHIL_ert_rtw/MW_target_hardware_resources.h:
+
+C:/Users/Filippo/Documents/motor-control/MATLAB/slprj/ert/_sharedutils/rtGetNaN.h:
+
+C:/Users/Filippo/Documents/motor-control/MATLAB/slprj/ert/_sharedutils/rt_nonfinite.h:
+
+C:/Users/Filippo/Documents/motor-control/MATLAB/slprj/ert/_sharedutils/rt_nonfinite.h:
+
+C:/Users/Filippo/Documents/motor-control/MATLAB/slprj/ert/_sharedutils/rtGetInf.h:
 
 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/toolbox/target/shared/svd/include/MW_SVD.h:

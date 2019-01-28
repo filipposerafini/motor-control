@@ -1,5 +1,21 @@
 Archive member included to satisfy reference by file (symbol)
 
+../slprj/ert/_sharedutils/rtwshared.lib(MWDSP_EPH_R_B.o)
+                              motoraiHIL.o (MWDSP_EPH_R_B)
+../slprj/ert/_sharedutils/rtwshared.lib(inv_6TJweJmr.o)
+                              motoraiHIL.o (inv_6TJweJmr)
+../slprj/ert/_sharedutils/rtwshared.lib(inv_t6RrLIHb.o)
+                              motoraiHIL.o (inv_t6RrLIHb)
+../slprj/ert/_sharedutils/rtwshared.lib(rt_nonfinite.o)
+                              motoraiHIL.o (rt_InitInfAndNaN)
+../slprj/ert/_sharedutils/rtwshared.lib(rt_powd_snf.o)
+                              motoraiHIL.o (rt_powd_snf)
+../slprj/ert/_sharedutils/rtwshared.lib(xnrm2_ooZ215qV.o)
+                              motoraiHIL.o (xnrm2_ooZ215qV)
+../slprj/ert/_sharedutils/rtwshared.lib(rtGetInf.o)
+                              ../slprj/ert/_sharedutils/rtwshared.lib(rt_nonfinite.o) (rtGetInf)
+../slprj/ert/_sharedutils/rtwshared.lib(rtGetNaN.o)
+                              ../slprj/ert/_sharedutils/rtwshared.lib(rt_nonfinite.o) (rtGetNaN)
 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(AnalogIn.o)
                               MW_AnalogInput.o (mbed::AnalogIn::_mutex)
 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(FilePath.o)
@@ -33,13 +49,13 @@ C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrse
 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-s_fabs.o)
                               motoraiHIL.o (fabs)
 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-s_floor.o)
-                              motoraiHIL.o (floor)
+                              ../slprj/ert/_sharedutils/rtwshared.lib(rt_powd_snf.o) (floor)
 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-w_exp.o)
                               motoraiHIL.o (exp)
 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-w_log10.o)
                               motoraiHIL.o (log10)
 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-w_pow.o)
-                              motoraiHIL.o (pow)
+                              ../slprj/ert/_sharedutils/rtwshared.lib(rt_powd_snf.o) (pow)
 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-w_sqrt.o)
                               motoraiHIL.o (sqrt)
 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-e_exp.o)
@@ -248,23 +264,23 @@ c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/
 Allocating common symbols
 Common symbol       size              file
 
-rtNaNF              0x4               motoraiHIL.o
+rtNaNF              0x4               ../slprj/ert/_sharedutils/rtwshared.lib(rt_nonfinite.o)
 TimMasterHandle     0x3c              C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/us_ticker_32b.o
 errno               0x4               c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-reent.o)
 rtM_                0x8               motoraiHIL.o
 uwTick              0x4               C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal.o
 pFlash              0x20              C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_flash.o
-rtInfF              0x4               motoraiHIL.o
-rtInf               0x8               motoraiHIL.o
+rtInfF              0x4               ../slprj/ert/_sharedutils/rtwshared.lib(rt_nonfinite.o)
+rtInf               0x8               ../slprj/ert/_sharedutils/rtwshared.lib(rt_nonfinite.o)
 rtDW                0x1e80            motoraiHIL.o
-rtNaN               0x8               motoraiHIL.o
-rtMinusInf          0x8               motoraiHIL.o
+rtNaN               0x8               ../slprj/ert/_sharedutils/rtwshared.lib(rt_nonfinite.o)
+rtMinusInf          0x8               ../slprj/ert/_sharedutils/rtwshared.lib(rt_nonfinite.o)
 schdl_counter_max   0x4               SysTickScheduler.o
 AdcHandle           0x48              C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/analogin_api.o
 rtPrevZCX           0x1               motoraiHIL.o
 stdio_uart          0x4c              C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/serial_api.o
 schdl_counter       0x4               SysTickScheduler.o
-rtMinusInfF         0x4               motoraiHIL.o
+rtMinusInfF         0x4               ../slprj/ert/_sharedutils/rtwshared.lib(rt_nonfinite.o)
 
 Discarded input sections
 
@@ -533,11 +549,15 @@ Discarded input sections
  .text.__cxa_guard_abort
                 0x00000000       0x2c C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/mbed_retarget.o
  .text._Znaj    0x00000000       0x18 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/mbed_retarget.o
+ .text._ZN12SingletonPtrI13PlatformMutexE3getEv
+                0x00000000       0x2c C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/mbed_retarget.o
  .text._ZN4mbed17remove_filehandleEPNS_8FileLikeE
                 0x00000000       0x34 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/mbed_retarget.o
  .text._open    0x00000000       0xf0 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/mbed_retarget.o
  .bss._ZL16filehandle_mutex
                 0x00000000        0x8 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/mbed_retarget.o
+ .rodata._ZN12SingletonPtrI13PlatformMutexE3getEv.str1.1
+                0x00000000       0x70 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/mbed_retarget.o
  .rodata._ZN9__gnu_cxx27__verbose_terminate_handlerEv.str1.1
                 0x00000000        0xa C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/mbed_retarget.o
  .rodata._Znaj.str1.1
@@ -2732,181 +2752,95 @@ Discarded input sections
  .group         0x00000000        0x8 BufferedSerial.o
  .group         0x00000000        0x8 BufferedSerial.o
  .group         0x00000000        0x8 BufferedSerial.o
- .group         0x00000000       0x14 BufferedSerial.o
- .group         0x00000000       0x14 BufferedSerial.o
- .group         0x00000000        0x8 BufferedSerial.o
- .group         0x00000000        0x8 BufferedSerial.o
  .group         0x00000000        0x8 BufferedSerial.o
  .group         0x00000000        0xc BufferedSerial.o
- .group         0x00000000        0xc BufferedSerial.o
- .group         0x00000000        0xc BufferedSerial.o
- .group         0x00000000        0xc BufferedSerial.o
- .group         0x00000000        0xc BufferedSerial.o
- .group         0x00000000        0x8 BufferedSerial.o
- .group         0x00000000        0xc BufferedSerial.o
- .group         0x00000000        0x8 BufferedSerial.o
- .group         0x00000000        0x8 BufferedSerial.o
- .group         0x00000000        0xc BufferedSerial.o
- .group         0x00000000        0xc BufferedSerial.o
- .group         0x00000000        0xc BufferedSerial.o
- .group         0x00000000        0xc BufferedSerial.o
- .group         0x00000000        0x8 BufferedSerial.o
- .group         0x00000000        0x8 BufferedSerial.o
  .text          0x00000000        0x0 BufferedSerial.o
  .data          0x00000000        0x0 BufferedSerial.o
  .bss           0x00000000        0x0 BufferedSerial.o
- .text._ZN13PlatformMutexD2Ev
-                0x00000000        0xc BufferedSerial.o
- .text._ZnwjPv  0x00000000        0xe BufferedSerial.o
  .text._ZN4mbed8FileLike5lseekEli
-                0x00000000       0x24 BufferedSerial.o
+                0x00000000        0x8 BufferedSerial.o
  .text._ZN4mbed8FileLike5fsyncEv
-                0x00000000       0x1c BufferedSerial.o
+                0x00000000        0x8 BufferedSerial.o
  .text._ZN4mbed8FileLike4flenEv
-                0x00000000       0x1c BufferedSerial.o
- .text._ZN4mbed10SerialBaseD2Ev
-                0x00000000       0x58 BufferedSerial.o
- .text._ZN4mbed10SerialBaseD0Ev
-                0x00000000       0x1c BufferedSerial.o
- .text._ZN4mbed6SerialD2Ev
-                0x00000000       0x4c BufferedSerial.o
- .text._ZN4mbed6SerialD0Ev
-                0x00000000       0x22 BufferedSerial.o
- .text._ZN14BufferedSerialC2E7PinNameS0_i
-                0x00000000       0xb4 BufferedSerial.o
+                0x00000000        0x8 BufferedSerial.o
+ .text._ZN4mbed8CallbackIFvvEE13function_callINS2_14method_contextI14BufferedSerialMS5_FvvEEEEEvPKv
+                0x00000000       0x20 BufferedSerial.o
+ .text._ZN4mbed8CallbackIFvvEE13function_moveINS2_14method_contextI14BufferedSerialMS5_FvvEEEEEvPvPKv
+                0x00000000        0xc BufferedSerial.o
+ .text._ZN4mbed8CallbackIFvvEE13function_dtorINS2_14method_contextI14BufferedSerialMS5_FvvEEEEEvPv
+                0x00000000        0x4 BufferedSerial.o
+ .text._ZN14BufferedSerial5rxIrqEv
+                0x00000000       0x30 BufferedSerial.o
  .text._ZN14BufferedSerialD2Ev
-                0x00000000       0x90 BufferedSerial.o
+                0x00000000       0xa8 BufferedSerial.o
  .text._ZThn188_N14BufferedSerialD1Ev
                 0x00000000        0x8 BufferedSerial.o
  .text._ZN14BufferedSerialD0Ev
-                0x00000000       0x1c BufferedSerial.o
- .text._ZThn188_N14BufferedSerialD0Ev
-                0x00000000        0x8 BufferedSerial.o
- .text._ZN14BufferedSerial14initDataBufferEv
-                0x00000000       0x22 BufferedSerial.o
- .text._ZN14BufferedSerial17writeToDataBufferEh
-                0x00000000       0x5c BufferedSerial.o
- .text._ZN14BufferedSerial18readFromDataBufferEv
-                0x00000000       0x56 BufferedSerial.o
- .text._ZN14BufferedSerial15isDataAvailableEv
-                0x00000000       0x20 BufferedSerial.o
- .text._ZN14BufferedSerial5rxIrqEv
-                0x00000000       0x24 BufferedSerial.o
- .text._ZN14BufferedSerial20lengthOfDataInBufferEv
-                0x00000000       0x10 BufferedSerial.o
- .text._ZN6CThunkIN4mbed10SerialBaseEED2Ev
-                0x00000000        0xc BufferedSerial.o
- .text._ZN4mbed8CallbackIFviEED2Ev
-                0x00000000       0x22 BufferedSerial.o
- .text._ZN4mbed8CallbackIFvvEED2Ev
-                0x00000000       0x22 BufferedSerial.o
- .text._ZN4mbed8CallbackIFvvEEC2EPS1_
-                0x00000000       0x2a BufferedSerial.o
- .text._ZN4mbed8callbackI14BufferedSerialS1_vEENS_8CallbackIFT1_vEEEPT0_MT_FS3_vE
-                0x00000000       0x22 BufferedSerial.o
- .rodata._ZZN4mbed8CallbackIFvvEE8generateIPS1_EEvRKT_E3ops
-                0x00000000        0xc BufferedSerial.o
- .text._ZN4mbed8CallbackIFvvEE8generateIPS1_EEvRKT_
-                0x00000000       0x30 BufferedSerial.o
- .text._ZN4mbed8CallbackIFvvEEC2I14BufferedSerialS4_EEPT0_MT_FvvE
-                0x00000000       0x2e BufferedSerial.o
- .text._ZN4mbed8CallbackIFvvEE13function_callIPS1_EEvPKv
                 0x00000000       0x14 BufferedSerial.o
- .text._ZN4mbed8CallbackIFvvEE13function_moveIPS1_EEvPvPKv
-                0x00000000       0x26 BufferedSerial.o
- .text._ZN4mbed8CallbackIFvvEE13function_dtorIPS1_EEvPv
-                0x00000000        0xa BufferedSerial.o
- .text._ZN4mbed8CallbackIFvvEE14method_contextI14BufferedSerialMS4_FvvEEC2EPS4_S6_
-                0x00000000       0x28 BufferedSerial.o
+ .text._ZThn188_N14BufferedSerialD0Ev
+                0x00000000       0x18 BufferedSerial.o
+ .text._ZN14BufferedSerialC2E7PinNameS0_i
+                0x00000000       0x84 BufferedSerial.o
+ .text._ZN14BufferedSerial14initDataBufferEv
+                0x00000000        0xc BufferedSerial.o
+ .text._ZN14BufferedSerial17writeToDataBufferEh
+                0x00000000       0x30 BufferedSerial.o
+ .text._ZN14BufferedSerial18readFromDataBufferEv
+                0x00000000       0x30 BufferedSerial.o
+ .text._ZN14BufferedSerial15isDataAvailableEv
+                0x00000000        0xc BufferedSerial.o
+ .text._ZN14BufferedSerial20lengthOfDataInBufferEv
+                0x00000000        0x8 BufferedSerial.o
  .rodata._ZZN4mbed8CallbackIFvvEE8generateINS2_14method_contextI14BufferedSerialMS5_FvvEEEEEvRKT_E3ops
                 0x00000000        0xc BufferedSerial.o
- .text._ZN4mbed8CallbackIFvvEE8generateINS2_14method_contextI14BufferedSerialMS5_FvvEEEEEvRKT_
-                0x00000000       0x34 BufferedSerial.o
- .text._ZN4mbed8CallbackIFvvEE13function_callINS2_14method_contextI14BufferedSerialMS5_FvvEEEEEvPKv
-                0x00000000       0x14 BufferedSerial.o
- .text._ZN4mbed8CallbackIFvvEE13function_moveINS2_14method_contextI14BufferedSerialMS5_FvvEEEEEvPvPKv
-                0x00000000       0x28 BufferedSerial.o
- .text._ZN4mbed8CallbackIFvvEE13function_dtorINS2_14method_contextI14BufferedSerialMS5_FvvEEEEEvPv
-                0x00000000        0xa BufferedSerial.o
- .text._ZNK4mbed8CallbackIFvvEE14method_contextI14BufferedSerialMS4_FvvEEclEv
-                0x00000000       0x46 BufferedSerial.o
  .rodata._ZTV14BufferedSerial
                 0x00000000       0x70 BufferedSerial.o
  .comment       0x00000000       0x7f BufferedSerial.o
  .ARM.attributes
                 0x00000000       0x37 BufferedSerial.o
- .group         0x00000000        0x8 MW_AnalogInput.o
- .group         0x00000000        0x8 MW_AnalogInput.o
- .group         0x00000000        0x8 MW_AnalogInput.o
- .group         0x00000000        0x8 MW_AnalogInput.o
- .group         0x00000000        0xc MW_AnalogInput.o
- .group         0x00000000        0xc MW_AnalogInput.o
- .group         0x00000000       0x14 MW_AnalogInput.o
- .group         0x00000000        0xc MW_AnalogInput.o
- .group         0x00000000        0xc MW_AnalogInput.o
+ .group         0x00000000       0x10 MW_AnalogInput.o
  .group         0x00000000        0xc MW_AnalogInput.o
  .group         0x00000000        0xc MW_AnalogInput.o
  .group         0x00000000        0xc MW_AnalogInput.o
  .text          0x00000000        0x0 MW_AnalogInput.o
  .data          0x00000000        0x0 MW_AnalogInput.o
  .bss           0x00000000        0x0 MW_AnalogInput.o
- .text._ZN13PlatformMutexC2Ev
-                0x00000000        0xc MW_AnalogInput.o
- .text._ZnwjPv  0x00000000        0xe MW_AnalogInput.o
- .text._ZL14singleton_lockv
-                0x00000000        0x4 MW_AnalogInput.o
- .text._ZL16singleton_unlockv
-                0x00000000        0x4 MW_AnalogInput.o
  .text.MW_AnalogIn_EnableNotification
-                0x00000000        0xa MW_AnalogInput.o
+                0x00000000        0x4 MW_AnalogInput.o
  .text.MW_AnalogIn_DisableNotification
-                0x00000000        0xa MW_AnalogInput.o
+                0x00000000        0x4 MW_AnalogInput.o
  .text.MW_AnalogIn_EnableContConversion
-                0x00000000        0xa MW_AnalogInput.o
+                0x00000000        0x4 MW_AnalogInput.o
  .text.MW_AnalogIn_GetStatus
-                0x00000000        0xc MW_AnalogInput.o
+                0x00000000        0x4 MW_AnalogInput.o
  .text.MW_AnalogIn_Stop
-                0x00000000        0xa MW_AnalogInput.o
+                0x00000000        0x4 MW_AnalogInput.o
  .text.MW_AnalogIn_Close
-                0x00000000       0x3e MW_AnalogInput.o
+                0x00000000       0x2c MW_AnalogInput.o
  .text.MW_AnalogIn_GetHandle
-                0x00000000       0x3c MW_AnalogInput.o
- .rodata        0x00000000       0x74 MW_AnalogInput.o
- .text._ZN12SingletonPtrI13PlatformMutexE3getEv
-                0x00000000       0x68 MW_AnalogInput.o
- .group         0x00000000        0xc MW_PWM.o
- .group         0x00000000        0xc MW_PWM.o
- .group         0x00000000        0xc MW_PWM.o
- .group         0x00000000        0xc MW_PWM.o
- .group         0x00000000        0xc MW_PWM.o
+                0x00000000       0x18 MW_AnalogInput.o
  .text          0x00000000        0x0 MW_PWM.o
  .data          0x00000000        0x0 MW_PWM.o
  .bss           0x00000000        0x0 MW_PWM.o
- .text._ZN6mw_pwmD2Ev
-                0x00000000       0x18 MW_PWM.o
  .text.MW_PWM_SetFrequency
-                0x00000000       0x50 MW_PWM.o
+                0x00000000       0x3c MW_PWM.o
  .text.MW_PWM_DisableNotification
-                0x00000000        0xa MW_PWM.o
+                0x00000000        0x4 MW_PWM.o
  .text.MW_PWM_EnableNotification
-                0x00000000       0x10 MW_PWM.o
+                0x00000000        0x4 MW_PWM.o
  .text.MW_PWM_SetOutputToIdle
-                0x00000000        0xa MW_PWM.o
+                0x00000000        0x4 MW_PWM.o
  .text.MW_PWM_GetOutputState
-                0x00000000        0xc MW_PWM.o
+                0x00000000        0x4 MW_PWM.o
  .text.MW_PWM_Stop
-                0x00000000       0x3e MW_PWM.o
+                0x00000000       0x28 MW_PWM.o
  .text.MW_PWM_Close
-                0x00000000        0xa MW_PWM.o
- .group         0x00000000        0xc MW_digitalIO.o
- .group         0x00000000        0xc MW_digitalIO.o
- .group         0x00000000        0xc MW_digitalIO.o
- .group         0x00000000        0xc MW_digitalIO.o
+                0x00000000        0x4 MW_PWM.o
  .text          0x00000000        0x0 MW_digitalIO.o
  .data          0x00000000        0x0 MW_digitalIO.o
  .bss           0x00000000        0x0 MW_digitalIO.o
  .text.MW_digitalIO_close
-                0x00000000       0x44 MW_digitalIO.o
+                0x00000000       0x1c MW_digitalIO.o
  .text          0x00000000        0x0 SysTickScheduler.o
  .data          0x00000000        0x0 SysTickScheduler.o
  .bss           0x00000000        0x0 SysTickScheduler.o
@@ -2921,38 +2855,40 @@ Discarded input sections
  .text          0x00000000        0x0 motoraiHIL.o
  .data          0x00000000        0x0 motoraiHIL.o
  .bss           0x00000000        0x0 motoraiHIL.o
- .text.rtIsInfF
-                0x00000000       0x40 motoraiHIL.o
- .text.SystemCore_release_aomx
-                0x00000000       0x28 motoraiHIL.o
- .text.SystemCore_delete_aomx
-                0x00000000       0x14 motoraiHIL.o
- .text.matlabCodegenHandle_matlab_aomx
-                0x00000000       0x22 motoraiHIL.o
- .text.SystemCore_release_a
-                0x00000000       0x28 motoraiHIL.o
- .text.SystemCore_delete_a
-                0x00000000       0x14 motoraiHIL.o
- .text.matlabCodegenHandle_matlabCod_a
-                0x00000000       0x22 motoraiHIL.o
- .text.SystemCore_release_aom
-                0x00000000       0x32 motoraiHIL.o
- .text.SystemCore_delete_aom
-                0x00000000       0x14 motoraiHIL.o
- .text.matlabCodegenHandle_matlabC_aom
-                0x00000000       0x22 motoraiHIL.o
- .text.SystemCore_release
-                0x00000000       0x32 motoraiHIL.o
- .text.SystemCore_delete
-                0x00000000       0x14 motoraiHIL.o
- .text.matlabCodegenHandle_matlabCodeg
-                0x00000000       0x22 motoraiHIL.o
  .text          0x00000000        0x0 motoraiHIL_data.o
  .data          0x00000000        0x0 motoraiHIL_data.o
  .bss           0x00000000        0x0 motoraiHIL_data.o
  .text          0x00000000        0x0 mw_mbed_interface.o
  .data          0x00000000        0x0 mw_mbed_interface.o
  .bss           0x00000000        0x0 mw_mbed_interface.o
+ .text          0x00000000        0x0 ../slprj/ert/_sharedutils/rtwshared.lib(MWDSP_EPH_R_B.o)
+ .data          0x00000000        0x0 ../slprj/ert/_sharedutils/rtwshared.lib(MWDSP_EPH_R_B.o)
+ .bss           0x00000000        0x0 ../slprj/ert/_sharedutils/rtwshared.lib(MWDSP_EPH_R_B.o)
+ .text          0x00000000        0x0 ../slprj/ert/_sharedutils/rtwshared.lib(inv_6TJweJmr.o)
+ .data          0x00000000        0x0 ../slprj/ert/_sharedutils/rtwshared.lib(inv_6TJweJmr.o)
+ .bss           0x00000000        0x0 ../slprj/ert/_sharedutils/rtwshared.lib(inv_6TJweJmr.o)
+ .text          0x00000000        0x0 ../slprj/ert/_sharedutils/rtwshared.lib(inv_t6RrLIHb.o)
+ .data          0x00000000        0x0 ../slprj/ert/_sharedutils/rtwshared.lib(inv_t6RrLIHb.o)
+ .bss           0x00000000        0x0 ../slprj/ert/_sharedutils/rtwshared.lib(inv_t6RrLIHb.o)
+ .text          0x00000000        0x0 ../slprj/ert/_sharedutils/rtwshared.lib(rt_nonfinite.o)
+ .data          0x00000000        0x0 ../slprj/ert/_sharedutils/rtwshared.lib(rt_nonfinite.o)
+ .bss           0x00000000        0x0 ../slprj/ert/_sharedutils/rtwshared.lib(rt_nonfinite.o)
+ .text.rtIsInfF
+                0x00000000       0x38 ../slprj/ert/_sharedutils/rtwshared.lib(rt_nonfinite.o)
+ .text.rtIsNaNF
+                0x00000000       0x1c ../slprj/ert/_sharedutils/rtwshared.lib(rt_nonfinite.o)
+ .text          0x00000000        0x0 ../slprj/ert/_sharedutils/rtwshared.lib(rt_powd_snf.o)
+ .data          0x00000000        0x0 ../slprj/ert/_sharedutils/rtwshared.lib(rt_powd_snf.o)
+ .bss           0x00000000        0x0 ../slprj/ert/_sharedutils/rtwshared.lib(rt_powd_snf.o)
+ .text          0x00000000        0x0 ../slprj/ert/_sharedutils/rtwshared.lib(xnrm2_ooZ215qV.o)
+ .data          0x00000000        0x0 ../slprj/ert/_sharedutils/rtwshared.lib(xnrm2_ooZ215qV.o)
+ .bss           0x00000000        0x0 ../slprj/ert/_sharedutils/rtwshared.lib(xnrm2_ooZ215qV.o)
+ .text          0x00000000        0x0 ../slprj/ert/_sharedutils/rtwshared.lib(rtGetInf.o)
+ .data          0x00000000        0x0 ../slprj/ert/_sharedutils/rtwshared.lib(rtGetInf.o)
+ .bss           0x00000000        0x0 ../slprj/ert/_sharedutils/rtwshared.lib(rtGetInf.o)
+ .text          0x00000000        0x0 ../slprj/ert/_sharedutils/rtwshared.lib(rtGetNaN.o)
+ .data          0x00000000        0x0 ../slprj/ert/_sharedutils/rtwshared.lib(rtGetNaN.o)
+ .bss           0x00000000        0x0 ../slprj/ert/_sharedutils/rtwshared.lib(rtGetNaN.o)
  .text          0x00000000        0x0 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(AnalogIn.o)
  .data          0x00000000        0x0 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(AnalogIn.o)
  .bss           0x00000000        0x0 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(AnalogIn.o)
@@ -4129,6 +4065,7 @@ LOAD m3m4m4f_multitasking.o
 LOAD motoraiHIL.o
 LOAD motoraiHIL_data.o
 LOAD mw_mbed_interface.o
+LOAD ../slprj/ert/_sharedutils/rtwshared.lib
 LOAD C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a
 LOAD C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/cmsis.instrset/CMSIS/Lib/GCC/libarm_cortexM4lsf_math.a
 LOAD c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libstdc++_nano.a
@@ -4150,7 +4087,7 @@ END GROUP
 LOAD c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crtend.o
 LOAD c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crtn.o
 
-.text           0x08000000    0x4a424
+.text           0x08000000    0x444b4
  *(.isr_vector)
  .isr_vector    0x08000000      0x198 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/startup_stm32f411xe.o
                 0x08000000                g_pfnVectors
@@ -4243,687 +4180,618 @@ LOAD c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib
                 0x080009d0                operator delete[](void*)
  .text._ZdlPv   0x080009d8        0x4 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/mbed_retarget.o
                 0x080009d8                operator delete(void*)
- .text._ZN12SingletonPtrI13PlatformMutexE3getEv
-                0x080009dc       0x2c C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/mbed_retarget.o
-                0x080009dc                SingletonPtr<PlatformMutex>::get()
  .text.LL_GPIO_SetPinPull
-                0x08000a08       0x2c C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/pinmap.o
+                0x080009dc       0x2c C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/pinmap.o
  .text.stm_pin_PullConfig
-                0x08000a34        0xe C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/pinmap.o
- *fill*         0x08000a42        0x2 
+                0x08000a08        0xe C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/pinmap.o
+ *fill*         0x08000a16        0x2 
  .text.pin_function
-                0x08000a44      0x130 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/pinmap.o
-                0x08000a44                pin_function
+                0x08000a18      0x130 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/pinmap.o
+                0x08000a18                pin_function
  .text.pin_mode
-                0x08000b74       0x88 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/pinmap.o
-                0x08000b74                pin_mode
+                0x08000b48       0x88 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/pinmap.o
+                0x08000b48                pin_mode
  .text.pwmout_write
-                0x08000bfc       0xb4 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/pwmout_api.o
-                0x08000bfc                pwmout_write
+                0x08000bd0       0xb4 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/pwmout_api.o
+                0x08000bd0                pwmout_write
  .text.pwmout_read
-                0x08000cb0       0x3c C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/pwmout_api.o
-                0x08000cb0                pwmout_read
+                0x08000c84       0x3c C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/pwmout_api.o
+                0x08000c84                pwmout_read
  .text.pwmout_period_us
-                0x08000cec      0x144 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/pwmout_api.o
-                0x08000cec                pwmout_period_us
+                0x08000cc0      0x144 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/pwmout_api.o
+                0x08000cc0                pwmout_period_us
  .text.pwmout_init
-                0x08000e30      0x18c C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/pwmout_api.o
-                0x08000e30                pwmout_init
+                0x08000e04      0x18c C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/pwmout_api.o
+                0x08000e04                pwmout_init
  .text.pwmout_period
-                0x08000fbc       0x1c C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/pwmout_api.o
-                0x08000fbc                pwmout_period
+                0x08000f90       0x1c C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/pwmout_api.o
+                0x08000f90                pwmout_period
  .text.init_uart
-                0x08000fd8       0x64 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/serial_api.o
+                0x08000fac       0x64 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/serial_api.o
  .text.serial_init
-                0x0800103c      0x154 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/serial_api.o
-                0x0800103c                serial_init
+                0x08001010      0x154 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/serial_api.o
+                0x08001010                serial_init
  .text.serial_baud
-                0x08001190        0x6 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/serial_api.o
-                0x08001190                serial_baud
- *fill*         0x08001196        0x2 
+                0x08001164        0x6 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/serial_api.o
+                0x08001164                serial_baud
+ *fill*         0x0800116a        0x2 
  .text.serial_readable
-                0x08001198       0x14 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/serial_api.o
-                0x08001198                serial_readable
+                0x0800116c       0x14 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/serial_api.o
+                0x0800116c                serial_readable
  .text.serial_getc
-                0x080011ac       0x24 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/serial_api.o
-                0x080011ac                serial_getc
+                0x08001180       0x24 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/serial_api.o
+                0x08001180                serial_getc
  .text.serial_writable
-                0x080011d0       0x14 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/serial_api.o
-                0x080011d0                serial_writable
+                0x080011a4       0x14 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/serial_api.o
+                0x080011a4                serial_writable
  .text.serial_putc
-                0x080011e4       0x24 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/serial_api.o
-                0x080011e4                serial_putc
+                0x080011b8       0x24 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/serial_api.o
+                0x080011b8                serial_putc
  .text.Reset_Handler
-                0x08001208       0x34 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/startup_stm32f411xe.o
-                0x08001208                Reset_Handler
+                0x080011dc       0x34 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/startup_stm32f411xe.o
+                0x080011dc                Reset_Handler
  .text.Default_Handler
-                0x0800123c        0x2 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/startup_stm32f411xe.o
-                0x0800123c                RTC_Alarm_IRQHandler
-                0x0800123c                EXTI2_IRQHandler
-                0x0800123c                DebugMon_Handler
-                0x0800123c                SPI4_IRQHandler
-                0x0800123c                TIM1_CC_IRQHandler
-                0x0800123c                DMA2_Stream5_IRQHandler
-                0x0800123c                HardFault_Handler
-                0x0800123c                DMA1_Stream5_IRQHandler
-                0x0800123c                PVD_IRQHandler
-                0x0800123c                SDIO_IRQHandler
-                0x0800123c                TAMP_STAMP_IRQHandler
-                0x0800123c                PendSV_Handler
-                0x0800123c                NMI_Handler
-                0x0800123c                EXTI3_IRQHandler
-                0x0800123c                TIM1_UP_TIM10_IRQHandler
-                0x0800123c                I2C3_ER_IRQHandler
-                0x0800123c                EXTI0_IRQHandler
-                0x0800123c                I2C2_EV_IRQHandler
-                0x0800123c                DMA1_Stream2_IRQHandler
-                0x0800123c                FPU_IRQHandler
-                0x0800123c                UsageFault_Handler
-                0x0800123c                DMA2_Stream2_IRQHandler
-                0x0800123c                SPI1_IRQHandler
-                0x0800123c                TIM1_BRK_TIM9_IRQHandler
-                0x0800123c                DMA2_Stream3_IRQHandler
-                0x0800123c                USART6_IRQHandler
-                0x0800123c                DMA2_Stream0_IRQHandler
-                0x0800123c                TIM4_IRQHandler
-                0x0800123c                I2C1_EV_IRQHandler
-                0x0800123c                DMA1_Stream6_IRQHandler
-                0x0800123c                DMA1_Stream1_IRQHandler
-                0x0800123c                TIM3_IRQHandler
-                0x0800123c                RCC_IRQHandler
-                0x0800123c                Default_Handler
-                0x0800123c                EXTI15_10_IRQHandler
-                0x0800123c                ADC_IRQHandler
-                0x0800123c                DMA1_Stream7_IRQHandler
-                0x0800123c                SPI5_IRQHandler
-                0x0800123c                TIM5_IRQHandler
-                0x0800123c                DMA2_Stream7_IRQHandler
-                0x0800123c                I2C3_EV_IRQHandler
-                0x0800123c                EXTI9_5_IRQHandler
-                0x0800123c                RTC_WKUP_IRQHandler
-                0x0800123c                SPI2_IRQHandler
-                0x0800123c                MemManage_Handler
-                0x0800123c                DMA1_Stream0_IRQHandler
-                0x0800123c                EXTI4_IRQHandler
-                0x0800123c                WWDG_IRQHandler
-                0x0800123c                TIM2_IRQHandler
-                0x0800123c                OTG_FS_WKUP_IRQHandler
-                0x0800123c                TIM1_TRG_COM_TIM11_IRQHandler
-                0x0800123c                EXTI1_IRQHandler
-                0x0800123c                USART2_IRQHandler
-                0x0800123c                I2C2_ER_IRQHandler
-                0x0800123c                DMA2_Stream1_IRQHandler
-                0x0800123c                FLASH_IRQHandler
-                0x0800123c                DMA2_Stream4_IRQHandler
-                0x0800123c                BusFault_Handler
-                0x0800123c                USART1_IRQHandler
-                0x0800123c                OTG_FS_IRQHandler
-                0x0800123c                SPI3_IRQHandler
-                0x0800123c                DMA1_Stream4_IRQHandler
-                0x0800123c                I2C1_ER_IRQHandler
-                0x0800123c                DMA2_Stream6_IRQHandler
-                0x0800123c                DMA1_Stream3_IRQHandler
- *fill*         0x0800123e        0x2 
+                0x08001210        0x2 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/startup_stm32f411xe.o
+                0x08001210                RTC_Alarm_IRQHandler
+                0x08001210                EXTI2_IRQHandler
+                0x08001210                DebugMon_Handler
+                0x08001210                SPI4_IRQHandler
+                0x08001210                TIM1_CC_IRQHandler
+                0x08001210                DMA2_Stream5_IRQHandler
+                0x08001210                HardFault_Handler
+                0x08001210                DMA1_Stream5_IRQHandler
+                0x08001210                PVD_IRQHandler
+                0x08001210                SDIO_IRQHandler
+                0x08001210                TAMP_STAMP_IRQHandler
+                0x08001210                PendSV_Handler
+                0x08001210                NMI_Handler
+                0x08001210                EXTI3_IRQHandler
+                0x08001210                TIM1_UP_TIM10_IRQHandler
+                0x08001210                I2C3_ER_IRQHandler
+                0x08001210                EXTI0_IRQHandler
+                0x08001210                I2C2_EV_IRQHandler
+                0x08001210                DMA1_Stream2_IRQHandler
+                0x08001210                FPU_IRQHandler
+                0x08001210                UsageFault_Handler
+                0x08001210                DMA2_Stream2_IRQHandler
+                0x08001210                SPI1_IRQHandler
+                0x08001210                TIM1_BRK_TIM9_IRQHandler
+                0x08001210                DMA2_Stream3_IRQHandler
+                0x08001210                USART6_IRQHandler
+                0x08001210                DMA2_Stream0_IRQHandler
+                0x08001210                TIM4_IRQHandler
+                0x08001210                I2C1_EV_IRQHandler
+                0x08001210                DMA1_Stream6_IRQHandler
+                0x08001210                DMA1_Stream1_IRQHandler
+                0x08001210                TIM3_IRQHandler
+                0x08001210                RCC_IRQHandler
+                0x08001210                Default_Handler
+                0x08001210                EXTI15_10_IRQHandler
+                0x08001210                ADC_IRQHandler
+                0x08001210                DMA1_Stream7_IRQHandler
+                0x08001210                SPI5_IRQHandler
+                0x08001210                TIM5_IRQHandler
+                0x08001210                DMA2_Stream7_IRQHandler
+                0x08001210                I2C3_EV_IRQHandler
+                0x08001210                EXTI9_5_IRQHandler
+                0x08001210                RTC_WKUP_IRQHandler
+                0x08001210                SPI2_IRQHandler
+                0x08001210                MemManage_Handler
+                0x08001210                DMA1_Stream0_IRQHandler
+                0x08001210                EXTI4_IRQHandler
+                0x08001210                WWDG_IRQHandler
+                0x08001210                TIM2_IRQHandler
+                0x08001210                OTG_FS_WKUP_IRQHandler
+                0x08001210                TIM1_TRG_COM_TIM11_IRQHandler
+                0x08001210                EXTI1_IRQHandler
+                0x08001210                USART2_IRQHandler
+                0x08001210                I2C2_ER_IRQHandler
+                0x08001210                DMA2_Stream1_IRQHandler
+                0x08001210                FLASH_IRQHandler
+                0x08001210                DMA2_Stream4_IRQHandler
+                0x08001210                BusFault_Handler
+                0x08001210                USART1_IRQHandler
+                0x08001210                OTG_FS_IRQHandler
+                0x08001210                SPI3_IRQHandler
+                0x08001210                DMA1_Stream4_IRQHandler
+                0x08001210                I2C1_ER_IRQHandler
+                0x08001210                DMA2_Stream6_IRQHandler
+                0x08001210                DMA1_Stream3_IRQHandler
+ *fill*         0x08001212        0x2 
  .text.HAL_Init
-                0x08001240       0x30 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal.o
-                0x08001240                HAL_Init
+                0x08001214       0x30 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal.o
+                0x08001214                HAL_Init
  .text.HAL_IncTick
-                0x08001270       0x10 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal.o
-                0x08001270                HAL_IncTick
+                0x08001244       0x10 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal.o
+                0x08001244                HAL_IncTick
  .text.HAL_GetTick
-                0x08001280        0xc C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal.o
-                0x08001280                HAL_GetTick
+                0x08001254        0xc C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal.o
+                0x08001254                HAL_GetTick
  .text.HAL_ADC_MspInit
-                0x0800128c        0x2 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_adc.o
-                0x0800128c                HAL_ADC_MspInit
- *fill*         0x0800128e        0x2 
+                0x08001260        0x2 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_adc.o
+                0x08001260                HAL_ADC_MspInit
+ *fill*         0x08001262        0x2 
  .text.HAL_ADC_Init
-                0x08001290      0x154 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_adc.o
-                0x08001290                HAL_ADC_Init
+                0x08001264      0x154 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_adc.o
+                0x08001264                HAL_ADC_Init
  .text.HAL_ADC_Start
-                0x080013e4       0xc0 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_adc.o
-                0x080013e4                HAL_ADC_Start
+                0x080013b8       0xc0 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_adc.o
+                0x080013b8                HAL_ADC_Start
  .text.HAL_ADC_PollForConversion
-                0x080014a4       0xa0 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_adc.o
-                0x080014a4                HAL_ADC_PollForConversion
+                0x08001478       0xa0 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_adc.o
+                0x08001478                HAL_ADC_PollForConversion
  .text.HAL_ADC_GetValue
-                0x08001544        0x6 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_adc.o
-                0x08001544                HAL_ADC_GetValue
- *fill*         0x0800154a        0x2 
+                0x08001518        0x6 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_adc.o
+                0x08001518                HAL_ADC_GetValue
+ *fill*         0x0800151e        0x2 
  .text.HAL_ADC_ConfigChannel
-                0x0800154c      0x130 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_adc.o
-                0x0800154c                HAL_ADC_ConfigChannel
+                0x08001520      0x130 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_adc.o
+                0x08001520                HAL_ADC_ConfigChannel
  .text.HAL_MspInit
-                0x0800167c        0x2 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_msp_template.o
-                0x0800167c                HAL_MspInit
- *fill*         0x0800167e        0x2 
+                0x08001650        0x2 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_msp_template.o
+                0x08001650                HAL_MspInit
+ *fill*         0x08001652        0x2 
  .text.HAL_RCC_OscConfig
-                0x08001680      0x2e0 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_rcc.o
-                0x08001680                HAL_RCC_OscConfig
+                0x08001654      0x2e0 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_rcc.o
+                0x08001654                HAL_RCC_OscConfig
  .text.HAL_RCC_GetSysClockFreq
-                0x08001960       0x74 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_rcc.o
-                0x08001960                HAL_RCC_GetSysClockFreq
+                0x08001934       0x74 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_rcc.o
+                0x08001934                HAL_RCC_GetSysClockFreq
  .text.HAL_RCC_ClockConfig
-                0x080019d4      0x16c C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_rcc.o
-                0x080019d4                HAL_RCC_ClockConfig
+                0x080019a8      0x16c C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_rcc.o
+                0x080019a8                HAL_RCC_ClockConfig
  .text.HAL_RCC_GetPCLK1Freq
-                0x08001b40       0x30 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_rcc.o
-                0x08001b40                HAL_RCC_GetPCLK1Freq
+                0x08001b14       0x30 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_rcc.o
+                0x08001b14                HAL_RCC_GetPCLK1Freq
  .text.HAL_RCC_GetPCLK2Freq
-                0x08001b70       0x30 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_rcc.o
-                0x08001b70                HAL_RCC_GetPCLK2Freq
+                0x08001b44       0x30 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_rcc.o
+                0x08001b44                HAL_RCC_GetPCLK2Freq
  .text.HAL_RCC_GetClockConfig
-                0x08001ba0       0x3c C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_rcc.o
-                0x08001ba0                HAL_RCC_GetClockConfig
+                0x08001b74       0x3c C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_rcc.o
+                0x08001b74                HAL_RCC_GetClockConfig
  .text.TIM_OC1_SetConfig
-                0x08001bdc       0x50 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim.o
+                0x08001bb0       0x50 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim.o
  .text.TIM_OC3_SetConfig
-                0x08001c2c       0x54 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim.o
+                0x08001c00       0x54 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim.o
  .text.TIM_OC4_SetConfig
-                0x08001c80       0x44 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim.o
+                0x08001c54       0x44 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim.o
  .text.HAL_TIM_OC_MspInit
-                0x08001cc4        0x2 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim.o
-                0x08001cc4                HAL_TIM_OC_MspInit
+                0x08001c98        0x2 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim.o
+                0x08001c98                HAL_TIM_OC_MspInit
  .text.HAL_TIM_PWM_MspInit
-                0x08001cc6        0x2 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim.o
-                0x08001cc6                HAL_TIM_PWM_MspInit
+                0x08001c9a        0x2 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim.o
+                0x08001c9a                HAL_TIM_PWM_MspInit
  .text.TIM_Base_SetConfig
-                0x08001cc8       0x98 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim.o
-                0x08001cc8                TIM_Base_SetConfig
+                0x08001c9c       0x98 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim.o
+                0x08001c9c                TIM_Base_SetConfig
  .text.HAL_TIM_OC_Init
-                0x08001d60       0x34 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim.o
-                0x08001d60                HAL_TIM_OC_Init
+                0x08001d34       0x34 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim.o
+                0x08001d34                HAL_TIM_OC_Init
  .text.HAL_TIM_PWM_Init
-                0x08001d94       0x34 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim.o
-                0x08001d94                HAL_TIM_PWM_Init
+                0x08001d68       0x34 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim.o
+                0x08001d68                HAL_TIM_PWM_Init
  .text.TIM_OC2_SetConfig
-                0x08001dc8       0x58 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim.o
-                0x08001dc8                TIM_OC2_SetConfig
+                0x08001d9c       0x58 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim.o
+                0x08001d9c                TIM_OC2_SetConfig
  .text.HAL_TIM_PWM_ConfigChannel
-                0x08001e20       0xc4 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim.o
-                0x08001e20                HAL_TIM_PWM_ConfigChannel
+                0x08001df4       0xc4 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim.o
+                0x08001df4                HAL_TIM_PWM_ConfigChannel
  .text.TIM_CCxChannelCmd
-                0x08001ee4       0x18 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim.o
-                0x08001ee4                TIM_CCxChannelCmd
+                0x08001eb8       0x18 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim.o
+                0x08001eb8                TIM_CCxChannelCmd
  .text.HAL_TIM_PWM_Start
-                0x08001efc       0x2c C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim.o
-                0x08001efc                HAL_TIM_PWM_Start
+                0x08001ed0       0x2c C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim.o
+                0x08001ed0                HAL_TIM_PWM_Start
  .text.HAL_TIM_OC_Start
-                0x08001f28        0x4 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim.o
-                0x08001f28                HAL_TIM_OC_Start
+                0x08001efc        0x4 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim.o
+                0x08001efc                HAL_TIM_OC_Start
  .text.TIM_CCxNChannelCmd
-                0x08001f2c       0x18 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim_ex.o
+                0x08001f00       0x18 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim_ex.o
  .text.HAL_TIMEx_PWMN_Start
-                0x08001f44       0x22 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim_ex.o
-                0x08001f44                HAL_TIMEx_PWMN_Start
- *fill*         0x08001f66        0x2 
+                0x08001f18       0x22 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim_ex.o
+                0x08001f18                HAL_TIMEx_PWMN_Start
+ *fill*         0x08001f3a        0x2 
  .text.UART_SetConfig
-                0x08001f68      0x234 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_uart.o
+                0x08001f3c      0x234 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_uart.o
  .text.HAL_UART_MspInit
-                0x0800219c        0x2 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_uart.o
-                0x0800219c                HAL_UART_MspInit
+                0x08002170        0x2 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_uart.o
+                0x08002170                HAL_UART_MspInit
  .text.HAL_UART_Init
-                0x0800219e       0x5c C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_uart.o
-                0x0800219e                HAL_UART_Init
+                0x08002172       0x5c C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_uart.o
+                0x08002172                HAL_UART_Init
  .text.SetSysClock_PLL_HSI.part.1
-                0x080021fa       0x2a C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/system_stm32f4xx.o
+                0x080021ce       0x2a C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/system_stm32f4xx.o
  .text.SystemCoreClockUpdate
-                0x08002224       0x74 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/system_stm32f4xx.o
-                0x08002224                SystemCoreClockUpdate
+                0x080021f8       0x74 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/system_stm32f4xx.o
+                0x080021f8                SystemCoreClockUpdate
  .text.SetSysClock_PLL_HSE
-                0x08002298       0x7c C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/system_stm32f4xx.o
-                0x08002298                SetSysClock_PLL_HSE
+                0x0800226c       0x7c C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/system_stm32f4xx.o
+                0x0800226c                SetSysClock_PLL_HSE
  .text.SetSysClock_PLL_HSI
-                0x08002314       0x78 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/system_stm32f4xx.o
-                0x08002314                SetSysClock_PLL_HSI
+                0x080022e8       0x78 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/system_stm32f4xx.o
+                0x080022e8                SetSysClock_PLL_HSI
  .text.SetSysClock
-                0x0800238c       0x1a C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/system_stm32f4xx.o
-                0x0800238c                SetSysClock
- *fill*         0x080023a6        0x2 
+                0x08002360       0x1a C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/system_stm32f4xx.o
+                0x08002360                SetSysClock
+ *fill*         0x0800237a        0x2 
  .text.SystemInit
-                0x080023a8       0x74 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/system_stm32f4xx.o
-                0x080023a8                SystemInit
+                0x0800237c       0x74 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/system_stm32f4xx.o
+                0x0800237c                SystemInit
  .text.us_ticker_init
-                0x0800241c       0x24 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/us_ticker_32b.o
-                0x0800241c                us_ticker_init
+                0x080023f0       0x24 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/us_ticker_32b.o
+                0x080023f0                us_ticker_init
  .text.us_ticker_read
-                0x08002440       0x1c C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/us_ticker_32b.o
-                0x08002440                us_ticker_read
+                0x08002414       0x1c C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/us_ticker_32b.o
+                0x08002414                us_ticker_read
  .text.us_ticker_set_interrupt
-                0x0800245c       0x1c C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/us_ticker_32b.o
-                0x0800245c                us_ticker_set_interrupt
+                0x08002430       0x1c C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/us_ticker_32b.o
+                0x08002430                us_ticker_set_interrupt
  .text.us_ticker_disable_interrupt
-                0x08002478       0x18 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/us_ticker_32b.o
-                0x08002478                us_ticker_disable_interrupt
+                0x0800244c       0x18 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/us_ticker_32b.o
+                0x0800244c                us_ticker_disable_interrupt
  .text.us_ticker_clear_interrupt
-                0x08002490       0x18 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/us_ticker_32b.o
-                0x08002490                us_ticker_clear_interrupt
- .text._ZN13PlatformMutex4lockEv
-                0x080024a8        0xa MW_AnalogInput.o
-                0x080024a8                PlatformMutex::lock()
- .text._ZN13PlatformMutex6unlockEv
-                0x080024b2        0xa MW_AnalogInput.o
-                0x080024b2                PlatformMutex::unlock()
- .text._ZN4mbed8AnalogInC2E7PinName
-                0x080024bc       0x3c MW_AnalogInput.o
-                0x080024bc                mbed::AnalogIn::AnalogIn(PinName)
-                0x080024bc                mbed::AnalogIn::AnalogIn(PinName)
- .text._ZN4mbed8AnalogIn4readEv
-                0x080024f8       0x34 MW_AnalogInput.o
-                0x080024f8                mbed::AnalogIn::read()
+                0x08002464       0x18 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/us_ticker_32b.o
+                0x08002464                us_ticker_clear_interrupt
  .text._ZN4mbed8AnalogInD2Ev
-                0x0800252c       0x18 MW_AnalogInput.o
-                0x0800252c                mbed::AnalogIn::~AnalogIn()
-                0x0800252c                mbed::AnalogIn::~AnalogIn()
+                0x0800247c        0x4 MW_AnalogInput.o
+                0x0800247c                mbed::AnalogIn::~AnalogIn()
+                0x0800247c                mbed::AnalogIn::~AnalogIn()
  .text._ZN4mbed8AnalogInD0Ev
-                0x08002544       0x1c MW_AnalogInput.o
-                0x08002544                mbed::AnalogIn::~AnalogIn()
+                0x08002480        0xc MW_AnalogInput.o
+                0x08002480                mbed::AnalogIn::~AnalogIn()
  .text._ZN4mbed8AnalogIn4lockEv
-                0x08002560       0x20 MW_AnalogInput.o
-                0x08002560                mbed::AnalogIn::lock()
+                0x0800248c       0x2c MW_AnalogInput.o
+                0x0800248c                mbed::AnalogIn::lock()
  .text._ZN4mbed8AnalogIn6unlockEv
-                0x08002580       0x20 MW_AnalogInput.o
-                0x08002580                mbed::AnalogIn::unlock()
+                0x080024b8       0x2c MW_AnalogInput.o
+                0x080024b8                mbed::AnalogIn::unlock()
  .text.MW_AnalogInSingle_Open
-                0x080025a0       0xb0 MW_AnalogInput.o
-                0x080025a0                MW_AnalogInSingle_Open
+                0x080024e4       0x9c MW_AnalogInput.o
+                0x080024e4                MW_AnalogInSingle_Open
  .text.MW_AnalogIn_SetTriggerSource
-                0x08002650       0x12 MW_AnalogInput.o
-                0x08002650                MW_AnalogIn_SetTriggerSource
+                0x08002580        0x4 MW_AnalogInput.o
+                0x08002580                MW_AnalogIn_SetTriggerSource
  .text.MW_AnalogInSingle_ReadResult
-                0x08002662       0x50 MW_AnalogInput.o
-                0x08002662                MW_AnalogInSingle_ReadResult
+                0x08002584       0x94 MW_AnalogInput.o
+                0x08002584                MW_AnalogInSingle_ReadResult
  .text.MW_AnalogIn_Start
-                0x080026b2        0xa MW_AnalogInput.o
-                0x080026b2                MW_AnalogIn_Start
- .text._ZN12SingletonPtrI13PlatformMutexEptEv
-                0x080026bc       0x16 MW_AnalogInput.o
-                0x080026bc                SingletonPtr<PlatformMutex>::operator->()
- .text._ZN4mbed6PwmOutC2E7PinName
-                0x080026d2       0x2c MW_PWM.o
-                0x080026d2                mbed::PwmOut::PwmOut(PinName)
-                0x080026d2                mbed::PwmOut::PwmOut(PinName)
- .text._ZN4mbed6PwmOut5writeEf
-                0x080026fe       0x22 MW_PWM.o
-                0x080026fe                mbed::PwmOut::write(float)
- .text._ZN4mbed6PwmOut6periodEf
-                0x08002720       0x22 MW_PWM.o
-                0x08002720                mbed::PwmOut::period(float)
- .text._ZN6mw_pwmC2E7PinName
-                0x08002742       0x24 MW_PWM.o
-                0x08002742                mw_pwm::mw_pwm(PinName)
-                0x08002742                mw_pwm::mw_pwm(PinName)
- *fill*         0x08002766        0x2 
+                0x08002618        0x4 MW_AnalogInput.o
+                0x08002618                MW_AnalogIn_Start
  .text.MW_PWM_Open
-                0x08002768      0x12c MW_PWM.o
-                0x08002768                MW_PWM_Open
+                0x0800261c       0x98 MW_PWM.o
+                0x0800261c                MW_PWM_Open
  .text.MW_PWM_Start
-                0x08002894        0xa MW_PWM.o
-                0x08002894                MW_PWM_Start
- *fill*         0x0800289e        0x2 
+                0x080026b4        0x4 MW_PWM.o
+                0x080026b4                MW_PWM_Start
  .text.MW_PWM_SetDutyCycle
-                0x080028a0       0x50 MW_PWM.o
-                0x080028a0                MW_PWM_SetDutyCycle
- .text.gpio_write
-                0x080028f0       0x2a MW_digitalIO.o
- .text.gpio_read
-                0x0800291a       0x20 MW_digitalIO.o
- .text._ZN4mbed9DigitalInC2E7PinName
-                0x0800293a       0x38 MW_digitalIO.o
-                0x0800293a                mbed::DigitalIn::DigitalIn(PinName)
-                0x0800293a                mbed::DigitalIn::DigitalIn(PinName)
- .text._ZN4mbed9DigitalIn4readEv
-                0x08002972       0x18 MW_digitalIO.o
-                0x08002972                mbed::DigitalIn::read()
- .text._ZN4mbed10DigitalOutC2E7PinName
-                0x0800298a       0x38 MW_digitalIO.o
-                0x0800298a                mbed::DigitalOut::DigitalOut(PinName)
-                0x0800298a                mbed::DigitalOut::DigitalOut(PinName)
- .text._ZN4mbed10DigitalOut5writeEi
-                0x080029c2       0x1a MW_digitalIO.o
-                0x080029c2                mbed::DigitalOut::write(int)
+                0x080026b8       0x3c MW_PWM.o
+                0x080026b8                MW_PWM_SetDutyCycle
  .text.MW_digitalIO_open
-                0x080029dc      0x14c MW_digitalIO.o
-                0x080029dc                MW_digitalIO_open
+                0x080026f4       0xa4 MW_digitalIO.o
+                0x080026f4                MW_digitalIO_open
  .text.MW_digitalIO_read
-                0x08002b28       0x34 MW_digitalIO.o
-                0x08002b28                MW_digitalIO_read
+                0x08002798       0x14 MW_digitalIO.o
+                0x08002798                MW_digitalIO_read
  .text.MW_digitalIO_write
-                0x08002b5c       0x2e MW_digitalIO.o
-                0x08002b5c                MW_digitalIO_write
- *fill*         0x08002b8a        0x2 
- .text.__NVIC_SetPriority
-                0x08002b8c       0x50 SysTickScheduler.o
- .text.SysTick_Config
-                0x08002bdc       0x40 SysTickScheduler.o
- .text.SysTick_Isr
-                0x08002c1c       0x40 SysTickScheduler.o
+                0x080027ac       0x18 MW_digitalIO.o
+                0x080027ac                MW_digitalIO_write
  .text.SysTick_Handler
-                0x08002c5c        0xa SysTickScheduler.o
-                0x08002c5c                SysTick_Handler
- *fill*         0x08002c66        0x2 
+                0x080027c4       0x38 SysTickScheduler.o
+                0x080027c4                SysTick_Handler
  .text.ARMCM_SysTick_Config
-                0x08002c68       0x88 SysTickScheduler.o
-                0x08002c68                ARMCM_SysTick_Config
+                0x080027fc       0xa4 SysTickScheduler.o
+                0x080027fc                ARMCM_SysTick_Config
  .text.rt_OneStep
-                0x08002cf0       0x44 ert_main.o
-                0x08002cf0                rt_OneStep
- .text.main     0x08002d34       0x94 ert_main.o
-                0x08002d34                main
+                0x080028a0       0x30 ert_main.o
+                0x080028a0                rt_OneStep
+ .text.startup.main
+                0x080028d0       0x6c ert_main.o
+                0x080028d0                main
  .text.SVC_Handler
-                0x08002dc8       0x58 m3m4m4f_multitasking.o
-                0x08002dc8                SVC_Handler
- .text.rtGetInf
-                0x08002e20       0x50 motoraiHIL.o
-                0x08002e20                rtGetInf
- .text.rtGetInfF
-                0x08002e70       0x10 motoraiHIL.o
-                0x08002e70                rtGetInfF
- .text.rtGetMinusInf
-                0x08002e80       0x50 motoraiHIL.o
-                0x08002e80                rtGetMinusInf
- .text.rtGetMinusInfF
-                0x08002ed0       0x14 motoraiHIL.o
-                0x08002ed0                rtGetMinusInfF
- .text.rtGetNaN
-                0x08002ee4       0x50 motoraiHIL.o
-                0x08002ee4                rtGetNaN
- .text.rtGetNaNF
-                0x08002f34       0x18 motoraiHIL.o
-                0x08002f34                rtGetNaNF
- .text.rt_InitInfAndNaN
-                0x08002f4c       0x6c motoraiHIL.o
-                0x08002f4c                rt_InitInfAndNaN
- .text.rtIsInf  0x08002fb8       0x4c motoraiHIL.o
-                0x08002fb8                rtIsInf
- .text.rtIsNaN  0x08003004       0x6c motoraiHIL.o
-                0x08003004                rtIsNaN
- .text.rtIsNaNF
-                0x08003070       0x2c motoraiHIL.o
-                0x08003070                rtIsNaNF
- .text.rate_scheduler
-                0x0800309c       0x20 motoraiHIL.o
- .text.MWDSP_EPH_R_B
-                0x080030bc       0xe0 motoraiHIL.o
-                0x080030bc                MWDSP_EPH_R_B
- .text.rt_powd_snf
-                0x0800319c      0x22c motoraiHIL.o
-                0x0800319c                rt_powd_snf
- .text.inv      0x080033c8      0x234 motoraiHIL.o
- .text.xnrm2    0x080035fc      0x15c motoraiHIL.o
+                0x0800293c       0x58 m3m4m4f_multitasking.o
+                0x0800293c                SVC_Handler
+ *fill*         0x08002994        0x4 
  .text.rt_hypotd_snf_a
-                0x08003758      0x1a0 motoraiHIL.o
- .text.xzlarf   0x080038f8      0x334 motoraiHIL.o
- .text.xgehrd   0x08003c2c     0x1720 motoraiHIL.o
- .text.xnrm2_g  0x0800534c      0x1f4 motoraiHIL.o
- .text.xzlarfg  0x08005540      0x3bc motoraiHIL.o
- .text.xdlanv2  0x080058fc      0xfe8 motoraiHIL.o
- .text.xrot     0x080068e4      0x104 motoraiHIL.o
- .text.xrot_k   0x080069e8       0xfc motoraiHIL.o
- .text.xrot_kc  0x08006ae4      0x338 motoraiHIL.o
- .text.eml_dlahqr
-                0x08006e1c     0x1f78 motoraiHIL.o
- .text.schur    0x08008d94      0x69c motoraiHIL.o
+                0x08002998       0xe8 motoraiHIL.o
  .text.motoraiHIL_step
-                0x08009430     0x9700 motoraiHIL.o
-                0x08009430                motoraiHIL_step
+                0x08002a80     0x9e20 motoraiHIL.o
+                0x08002a80                motoraiHIL_step
  .text.motoraiHIL_initialize
-                0x08012b30      0x358 motoraiHIL.o
-                0x08012b30                motoraiHIL_initialize
+                0x0800c8a0      0x168 motoraiHIL.o
+                0x0800c8a0                motoraiHIL_initialize
+ .text.MWDSP_EPH_R_B
+                0x0800ca08       0x60 ../slprj/ert/_sharedutils/rtwshared.lib(MWDSP_EPH_R_B.o)
+                0x0800ca08                MWDSP_EPH_R_B
+ .text.inv_6TJweJmr
+                0x0800ca68      0x160 ../slprj/ert/_sharedutils/rtwshared.lib(inv_6TJweJmr.o)
+                0x0800ca68                inv_6TJweJmr
+ .text.inv_t6RrLIHb
+                0x0800cbc8       0x14 ../slprj/ert/_sharedutils/rtwshared.lib(inv_t6RrLIHb.o)
+                0x0800cbc8                inv_t6RrLIHb
+ .text.rt_InitInfAndNaN
+                0x0800cbdc       0x54 ../slprj/ert/_sharedutils/rtwshared.lib(rt_nonfinite.o)
+                0x0800cbdc                rt_InitInfAndNaN
+ .text.rtIsInf  0x0800cc30       0x40 ../slprj/ert/_sharedutils/rtwshared.lib(rt_nonfinite.o)
+                0x0800cc30                rtIsInf
+ .text.rtIsNaN  0x0800cc70       0x20 ../slprj/ert/_sharedutils/rtwshared.lib(rt_nonfinite.o)
+                0x0800cc70                rtIsNaN
+ .text.rt_powd_snf
+                0x0800cc90      0x16c ../slprj/ert/_sharedutils/rtwshared.lib(rt_powd_snf.o)
+                0x0800cc90                rt_powd_snf
+ .text.xnrm2_ooZ215qV
+                0x0800cdfc       0xe8 ../slprj/ert/_sharedutils/rtwshared.lib(xnrm2_ooZ215qV.o)
+                0x0800cdfc                xnrm2_ooZ215qV
+ .text.rtGetInf
+                0x0800cee4        0xc ../slprj/ert/_sharedutils/rtwshared.lib(rtGetInf.o)
+                0x0800cee4                rtGetInf
+ .text.rtGetInfF
+                0x0800cef0        0x8 ../slprj/ert/_sharedutils/rtwshared.lib(rtGetInf.o)
+                0x0800cef0                rtGetInfF
+ .text.rtGetMinusInf
+                0x0800cef8        0xc ../slprj/ert/_sharedutils/rtwshared.lib(rtGetInf.o)
+                0x0800cef8                rtGetMinusInf
+ .text.rtGetMinusInfF
+                0x0800cf04        0x8 ../slprj/ert/_sharedutils/rtwshared.lib(rtGetInf.o)
+                0x0800cf04                rtGetMinusInfF
+ .text.rtGetNaN
+                0x0800cf0c        0xc ../slprj/ert/_sharedutils/rtwshared.lib(rtGetNaN.o)
+                0x0800cf0c                rtGetNaN
+ .text.rtGetNaNF
+                0x0800cf18        0x8 ../slprj/ert/_sharedutils/rtwshared.lib(rtGetNaN.o)
+                0x0800cf18                rtGetNaNF
  .text._gpio_init_in
-                0x08012e88       0x26 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_gpio.o)
+                0x0800cf20       0x26 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_gpio.o)
  .text._gpio_init_out.part.2
-                0x08012eae       0x28 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_gpio.o)
+                0x0800cf46       0x28 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_gpio.o)
  .text.gpio_init_in
-                0x08012ed6        0x6 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_gpio.o)
-                0x08012ed6                gpio_init_in
+                0x0800cf6e        0x6 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_gpio.o)
+                0x0800cf6e                gpio_init_in
  .text.gpio_init_out_ex
-                0x08012edc       0x20 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_gpio.o)
-                0x08012edc                gpio_init_out_ex
+                0x0800cf74       0x20 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_gpio.o)
+                0x0800cf74                gpio_init_out_ex
  .text.gpio_init_out
-                0x08012efc        0x6 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_gpio.o)
-                0x08012efc                gpio_init_out
- *fill*         0x08012f02        0x2 
+                0x0800cf94        0x6 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_gpio.o)
+                0x0800cf94                gpio_init_out
+ *fill*         0x0800cf9a        0x2 
  .text.us_ticker_irq_handler
-                0x08012f04        0xc C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_us_ticker_api.o)
-                0x08012f04                us_ticker_irq_handler
+                0x0800cf9c        0xc C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_us_ticker_api.o)
+                0x0800cf9c                us_ticker_irq_handler
  .text.mbed_assert_internal
-                0x08012f10       0x24 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_assert.o)
-                0x08012f10                mbed_assert_internal
+                0x0800cfa8       0x24 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_assert.o)
+                0x0800cfa8                mbed_assert_internal
  .text.pinmap_pinout
-                0x08012f34       0x3c C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_pinmap_common.o)
-                0x08012f34                pinmap_pinout
+                0x0800cfcc       0x3c C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_pinmap_common.o)
+                0x0800cfcc                pinmap_pinout
  .text.pinmap_merge
-                0x08012f70       0x24 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_pinmap_common.o)
-                0x08012f70                pinmap_merge
+                0x0800d008       0x24 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_pinmap_common.o)
+                0x0800d008                pinmap_merge
  .text.pinmap_find_peripheral
-                0x08012f94       0x18 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_pinmap_common.o)
-                0x08012f94                pinmap_find_peripheral
+                0x0800d02c       0x18 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_pinmap_common.o)
+                0x0800d02c                pinmap_find_peripheral
  .text.pinmap_peripheral
-                0x08012fac       0x20 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_pinmap_common.o)
-                0x08012fac                pinmap_peripheral
+                0x0800d044       0x20 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_pinmap_common.o)
+                0x0800d044                pinmap_peripheral
  .text.pinmap_find_function
-                0x08012fcc       0x18 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_pinmap_common.o)
-                0x08012fcc                pinmap_find_function
+                0x0800d064       0x18 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_pinmap_common.o)
+                0x0800d064                pinmap_find_function
  .text.pinmap_function
-                0x08012fe4       0x20 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_pinmap_common.o)
-                0x08012fe4                pinmap_function
+                0x0800d07c       0x20 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_pinmap_common.o)
+                0x0800d07c                pinmap_function
  .text.ticker_irq_handler
-                0x08013004       0x46 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_ticker_api.o)
-                0x08013004                ticker_irq_handler
- .text.error    0x0801304a       0x16 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_error.o)
-                0x0801304a                error
+                0x0800d09c       0x46 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_ticker_api.o)
+                0x0800d09c                ticker_irq_handler
+ .text.error    0x0800d0e2       0x16 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_error.o)
+                0x0800d0e2                error
  .text.core_util_are_interrupts_enabled
-                0x08013060        0xc C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_critical.o)
-                0x08013060                core_util_are_interrupts_enabled
+                0x0800d0f8        0xc C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_critical.o)
+                0x0800d0f8                core_util_are_interrupts_enabled
  .text.core_util_critical_section_enter
-                0x0801306c       0x58 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_critical.o)
-                0x0801306c                core_util_critical_section_enter
+                0x0800d104       0x58 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_critical.o)
+                0x0800d104                core_util_critical_section_enter
  .text.core_util_critical_section_exit
-                0x080130c4       0x3c C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_critical.o)
-                0x080130c4                core_util_critical_section_exit
- .text.wait_us  0x08013100       0x16 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_wait_api_no_rtos.o)
-                0x08013100                wait_us
- .text.wait_ms  0x08013116        0xa C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_wait_api_no_rtos.o)
-                0x08013116                wait_ms
- .text.fabs     0x08013120        0x8 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-s_fabs.o)
-                0x08013120                fabs
- .text.floor    0x08013128      0x100 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-s_floor.o)
-                0x08013128                floor
- .text.exp      0x08013228       0xf0 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-w_exp.o)
-                0x08013228                exp
- .text.log10    0x08013318      0x100 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-w_log10.o)
-                0x08013318                log10
- .text.pow      0x08013418      0x33c c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-w_pow.o)
-                0x08013418                pow
- .text.sqrt     0x08013754       0xbc c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-w_sqrt.o)
-                0x08013754                sqrt
+                0x0800d15c       0x3c C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_critical.o)
+                0x0800d15c                core_util_critical_section_exit
+ .text.wait_us  0x0800d198       0x16 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_wait_api_no_rtos.o)
+                0x0800d198                wait_us
+ .text.wait_ms  0x0800d1ae        0xa C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_wait_api_no_rtos.o)
+                0x0800d1ae                wait_ms
+ .text.fabs     0x0800d1b8        0x8 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-s_fabs.o)
+                0x0800d1b8                fabs
+ .text.floor    0x0800d1c0      0x100 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-s_floor.o)
+                0x0800d1c0                floor
+ .text.exp      0x0800d2c0       0xf0 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-w_exp.o)
+                0x0800d2c0                exp
+ .text.log10    0x0800d3b0      0x100 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-w_log10.o)
+                0x0800d3b0                log10
+ .text.pow      0x0800d4b0      0x33c c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-w_pow.o)
+                0x0800d4b0                pow
+ .text.sqrt     0x0800d7ec       0xbc c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-w_sqrt.o)
+                0x0800d7ec                sqrt
  .text.__ieee754_exp
-                0x08013810      0x2ec c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-e_exp.o)
-                0x08013810                __ieee754_exp
- *fill*         0x08013afc        0x4 
+                0x0800d8a8      0x2ec c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-e_exp.o)
+                0x0800d8a8                __ieee754_exp
+ *fill*         0x0800db94        0x4 
  .text.__ieee754_log10
-                0x08013b00      0x114 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-e_log10.o)
-                0x08013b00                __ieee754_log10
- *fill*         0x08013c14        0x4 
+                0x0800db98      0x114 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-e_log10.o)
+                0x0800db98                __ieee754_log10
+ *fill*         0x0800dcac        0x4 
  .text.__ieee754_pow
-                0x08013c18      0xaa8 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-e_pow.o)
-                0x08013c18                __ieee754_pow
+                0x0800dcb0      0xaa8 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-e_pow.o)
+                0x0800dcb0                __ieee754_pow
  .text.__ieee754_sqrt
-                0x080146c0      0x180 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-e_sqrt.o)
-                0x080146c0                __ieee754_sqrt
- .text.finite   0x08014840        0xc c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-s_finite.o)
-                0x08014840                finite
- .text.matherr  0x0801484c        0x4 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-s_matherr.o)
-                0x0801484c                matherr
- .text.nan      0x08014850        0xc c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-s_nan.o)
-                0x08014850                nan
- .text.rint     0x0801485c      0x11c c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-s_rint.o)
-                0x0801485c                rint
- .text.scalbn   0x08014978       0xfc c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-s_scalbn.o)
-                0x08014978                scalbn
- *fill*         0x08014a74        0x4 
+                0x0800e758      0x180 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-e_sqrt.o)
+                0x0800e758                __ieee754_sqrt
+ .text.finite   0x0800e8d8        0xc c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-s_finite.o)
+                0x0800e8d8                finite
+ .text.matherr  0x0800e8e4        0x4 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-s_matherr.o)
+                0x0800e8e4                matherr
+ .text.nan      0x0800e8e8        0xc c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-s_nan.o)
+                0x0800e8e8                nan
+ .text.rint     0x0800e8f4      0x11c c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-s_rint.o)
+                0x0800e8f4                rint
+ .text.scalbn   0x0800ea10       0xfc c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-s_scalbn.o)
+                0x0800ea10                scalbn
+ *fill*         0x0800eb0c        0x4 
  .text.__ieee754_log
-                0x08014a78      0x394 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-e_log.o)
-                0x08014a78                __ieee754_log
+                0x0800eb10      0x394 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-e_log.o)
+                0x0800eb10                __ieee754_log
  .text.copysign
-                0x08014e0c       0x10 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-s_copysign.o)
-                0x08014e0c                copysign
- .text          0x08014e1c      0x378 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libgcc.a(_arm_addsubdf3.o)
-                0x08014e1c                __aeabi_drsub
-                0x08014e24                __aeabi_dsub
-                0x08014e24                __subdf3
-                0x08014e28                __aeabi_dadd
-                0x08014e28                __adddf3
-                0x080150a0                __floatunsidf
-                0x080150a0                __aeabi_ui2d
-                0x080150c0                __floatsidf
-                0x080150c0                __aeabi_i2d
-                0x080150e4                __aeabi_f2d
-                0x080150e4                __extendsfdf2
-                0x08015128                __floatundidf
-                0x08015128                __aeabi_ul2d
-                0x08015138                __floatdidf
-                0x08015138                __aeabi_l2d
- .text          0x08015194      0x424 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libgcc.a(_arm_muldivdf3.o)
-                0x08015194                __aeabi_dmul
-                0x08015194                __muldf3
-                0x080153e8                __divdf3
-                0x080153e8                __aeabi_ddiv
- .text          0x080155b8      0x110 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libgcc.a(_arm_cmpdf2.o)
-                0x080155b8                __gtdf2
-                0x080155b8                __gedf2
-                0x080155c0                __ltdf2
-                0x080155c0                __ledf2
-                0x080155c8                __nedf2
-                0x080155c8                __eqdf2
-                0x080155c8                __cmpdf2
-                0x08015644                __aeabi_cdrcmple
-                0x08015654                __aeabi_cdcmpeq
-                0x08015654                __aeabi_cdcmple
-                0x08015664                __aeabi_dcmpeq
-                0x08015678                __aeabi_dcmplt
-                0x0801568c                __aeabi_dcmple
-                0x080156a0                __aeabi_dcmpge
-                0x080156b4                __aeabi_dcmpgt
- .text          0x080156c8       0x2c c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libgcc.a(_arm_unorddf2.o)
-                0x080156c8                __unorddf2
-                0x080156c8                __aeabi_dcmpun
- .text          0x080156f4       0x50 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libgcc.a(_arm_fixdfsi.o)
-                0x080156f4                __aeabi_d2iz
-                0x080156f4                __fixdfsi
- .text          0x08015744       0xa0 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libgcc.a(_arm_truncdfsf2.o)
-                0x08015744                __truncdfsf2
-                0x08015744                __aeabi_d2f
- .text.__errno  0x080157e4        0xc c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-errno.o)
-                0x080157e4                __errno
- .text.exit     0x080157f0       0x28 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-exit.o)
-                0x080157f0                exit
+                0x0800eea4       0x10 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-s_copysign.o)
+                0x0800eea4                copysign
+ .text          0x0800eeb4      0x378 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libgcc.a(_arm_addsubdf3.o)
+                0x0800eeb4                __aeabi_drsub
+                0x0800eebc                __aeabi_dsub
+                0x0800eebc                __subdf3
+                0x0800eec0                __aeabi_dadd
+                0x0800eec0                __adddf3
+                0x0800f138                __floatunsidf
+                0x0800f138                __aeabi_ui2d
+                0x0800f158                __floatsidf
+                0x0800f158                __aeabi_i2d
+                0x0800f17c                __aeabi_f2d
+                0x0800f17c                __extendsfdf2
+                0x0800f1c0                __floatundidf
+                0x0800f1c0                __aeabi_ul2d
+                0x0800f1d0                __floatdidf
+                0x0800f1d0                __aeabi_l2d
+ .text          0x0800f22c      0x424 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libgcc.a(_arm_muldivdf3.o)
+                0x0800f22c                __aeabi_dmul
+                0x0800f22c                __muldf3
+                0x0800f480                __divdf3
+                0x0800f480                __aeabi_ddiv
+ .text          0x0800f650      0x110 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libgcc.a(_arm_cmpdf2.o)
+                0x0800f650                __gtdf2
+                0x0800f650                __gedf2
+                0x0800f658                __ltdf2
+                0x0800f658                __ledf2
+                0x0800f660                __nedf2
+                0x0800f660                __eqdf2
+                0x0800f660                __cmpdf2
+                0x0800f6dc                __aeabi_cdrcmple
+                0x0800f6ec                __aeabi_cdcmpeq
+                0x0800f6ec                __aeabi_cdcmple
+                0x0800f6fc                __aeabi_dcmpeq
+                0x0800f710                __aeabi_dcmplt
+                0x0800f724                __aeabi_dcmple
+                0x0800f738                __aeabi_dcmpge
+                0x0800f74c                __aeabi_dcmpgt
+ .text          0x0800f760       0x2c c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libgcc.a(_arm_unorddf2.o)
+                0x0800f760                __unorddf2
+                0x0800f760                __aeabi_dcmpun
+ .text          0x0800f78c       0x50 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libgcc.a(_arm_fixdfsi.o)
+                0x0800f78c                __aeabi_d2iz
+                0x0800f78c                __fixdfsi
+ .text          0x0800f7dc       0xa0 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libgcc.a(_arm_truncdfsf2.o)
+                0x0800f7dc                __truncdfsf2
+                0x0800f7dc                __aeabi_d2f
+ .text.__errno  0x0800f87c        0xc c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-errno.o)
+                0x0800f87c                __errno
+ .text.exit     0x0800f888       0x28 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-exit.o)
+                0x0800f888                exit
  .text.__sflush_r
-                0x08015818      0x10c c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-fflush.o)
-                0x08015818                __sflush_r
+                0x0800f8b0      0x10c c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-fflush.o)
+                0x0800f8b0                __sflush_r
  .text._fflush_r
-                0x08015924       0x54 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-fflush.o)
-                0x08015924                _fflush_r
- .text.fflush   0x08015978       0x24 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-fflush.o)
-                0x08015978                fflush
- .text.std      0x0801599c       0x48 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-findfp.o)
+                0x0800f9bc       0x54 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-fflush.o)
+                0x0800f9bc                _fflush_r
+ .text.fflush   0x0800fa10       0x24 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-fflush.o)
+                0x0800fa10                fflush
+ .text.std      0x0800fa34       0x48 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-findfp.o)
  .text._cleanup_r
-                0x080159e4        0xc c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-findfp.o)
-                0x080159e4                _cleanup_r
+                0x0800fa7c        0xc c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-findfp.o)
+                0x0800fa7c                _cleanup_r
  .text.__sfmoreglue
-                0x080159f0       0x2c c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-findfp.o)
-                0x080159f0                __sfmoreglue
- .text.__sinit  0x08015a1c       0x60 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-findfp.o)
-                0x08015a1c                __sinit
- .text.__sfp    0x08015a7c       0x78 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-findfp.o)
-                0x08015a7c                __sfp
+                0x0800fa88       0x2c c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-findfp.o)
+                0x0800fa88                __sfmoreglue
+ .text.__sinit  0x0800fab4       0x60 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-findfp.o)
+                0x0800fab4                __sinit
+ .text.__sfp    0x0800fb14       0x78 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-findfp.o)
+                0x0800fb14                __sfp
  .text._fwalk_reent
-                0x08015af4       0x3c c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-fwalk.o)
-                0x08015af4                _fwalk_reent
+                0x0800fb8c       0x3c c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-fwalk.o)
+                0x0800fb8c                _fwalk_reent
  .text.__libc_init_array
-                0x08015b30       0x48 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-init.o)
-                0x08015b30                __libc_init_array
- .text.malloc   0x08015b78       0x10 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-malloc.o)
-                0x08015b78                malloc
- .text.free     0x08015b88       0x10 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-malloc.o)
-                0x08015b88                free
- *fill*         0x08015b98        0x8 
- .text          0x08015ba0       0xa0 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-memchr.o)
-                0x08015ba0                memchr
- .text.memcpy   0x08015c40       0x16 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-memcpy-stub.o)
-                0x08015c40                memcpy
- .text.memset   0x08015c56       0x10 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-memset.o)
-                0x08015c56                memset
- *fill*         0x08015c66        0x2 
- .text._free_r  0x08015c68       0x9c c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-nano-freer.o)
-                0x08015c68                _free_r
+                0x0800fbc8       0x48 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-init.o)
+                0x0800fbc8                __libc_init_array
+ .text.malloc   0x0800fc10       0x10 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-malloc.o)
+                0x0800fc10                malloc
+ .text.free     0x0800fc20       0x10 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-malloc.o)
+                0x0800fc20                free
+ .text          0x0800fc30       0xa0 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-memchr.o)
+                0x0800fc30                memchr
+ .text.memcpy   0x0800fcd0       0x16 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-memcpy-stub.o)
+                0x0800fcd0                memcpy
+ .text.memset   0x0800fce6       0x10 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-memset.o)
+                0x0800fce6                memset
+ *fill*         0x0800fcf6        0x2 
+ .text._free_r  0x0800fcf8       0x9c c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-nano-freer.o)
+                0x0800fcf8                _free_r
  .text._malloc_r
-                0x08015d04       0xb4 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-nano-mallocr.o)
-                0x08015d04                _malloc_r
+                0x0800fd94       0xb4 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-nano-mallocr.o)
+                0x0800fd94                _malloc_r
  .text._printf_common
-                0x08015db8       0xea c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x08015db8                _printf_common
- *fill*         0x08015ea2        0x2 
+                0x0800fe48       0xea c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0800fe48                _printf_common
+ *fill*         0x0800ff32        0x2 
  .text._printf_i
-                0x08015ea4      0x224 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x08015ea4                _printf_i
- .text._sbrk_r  0x080160c8       0x20 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-sbrkr.o)
-                0x080160c8                _sbrk_r
- .text.__sread  0x080160e8       0x22 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-stdio.o)
-                0x080160e8                __sread
+                0x0800ff34      0x224 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0800ff34                _printf_i
+ .text._sbrk_r  0x08010158       0x20 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-sbrkr.o)
+                0x08010158                _sbrk_r
+ .text.__sread  0x08010178       0x22 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-stdio.o)
+                0x08010178                __sread
  .text.__swrite
-                0x0801610a       0x38 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-stdio.o)
-                0x0801610a                __swrite
- .text.__sseek  0x08016142       0x24 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-stdio.o)
-                0x08016142                __sseek
+                0x0801019a       0x38 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-stdio.o)
+                0x0801019a                __swrite
+ .text.__sseek  0x080101d2       0x24 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-stdio.o)
+                0x080101d2                __sseek
  .text.__sclose
-                0x08016166        0x8 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-stdio.o)
-                0x08016166                __sclose
+                0x080101f6        0x8 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-stdio.o)
+                0x080101f6                __sclose
  .text._vsnprintf_r
-                0x0801616e       0x58 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-vsnprintf.o)
-                0x0801616e                _vsniprintf_r
-                0x0801616e                _vsnprintf_r
- *fill*         0x080161c6        0x2 
+                0x080101fe       0x58 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-vsnprintf.o)
+                0x080101fe                _vsniprintf_r
+                0x080101fe                _vsnprintf_r
+ *fill*         0x08010256        0x2 
  .text.vsnprintf
-                0x080161c8       0x1c c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-vsnprintf.o)
-                0x080161c8                vsniprintf
-                0x080161c8                vsnprintf
+                0x08010258       0x1c c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-vsnprintf.o)
+                0x08010258                vsniprintf
+                0x08010258                vsnprintf
  .text._write_r
-                0x080161e4       0x24 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-writer.o)
-                0x080161e4                _write_r
+                0x08010274       0x24 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-writer.o)
+                0x08010274                _write_r
  .text._close_r
-                0x08016208       0x20 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-closer.o)
-                0x08016208                _close_r
+                0x08010298       0x20 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-closer.o)
+                0x08010298                _close_r
  .text._lseek_r
-                0x08016228       0x24 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-lseekr.o)
-                0x08016228                _lseek_r
- .text.memmove  0x0801624c       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-memmove.o)
-                0x0801624c                memmove
+                0x080102b8       0x24 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-lseekr.o)
+                0x080102b8                _lseek_r
+ .text.memmove  0x080102dc       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-memmove.o)
+                0x080102dc                memmove
  .text._realloc_r
-                0x0801627e       0x4c c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-nano-reallocr.o)
-                0x0801627e                _realloc_r
+                0x0801030e       0x4c c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-nano-reallocr.o)
+                0x0801030e                _realloc_r
  .text.__ssputs_r
-                0x080162ca       0xb4 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-nano-svfprintf.o)
-                0x080162ca                __ssputs_r
- *fill*         0x0801637e        0x2 
+                0x0801035a       0xb4 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-nano-svfprintf.o)
+                0x0801035a                __ssputs_r
+ *fill*         0x0801040e        0x2 
  .text._svfprintf_r
-                0x08016380      0x1ec c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-nano-svfprintf.o)
-                0x08016380                _svfiprintf_r
-                0x08016380                _svfprintf_r
- .text._read_r  0x0801656c       0x24 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-readr.o)
-                0x0801656c                _read_r
+                0x08010410      0x1ec c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-nano-svfprintf.o)
+                0x08010410                _svfiprintf_r
+                0x08010410                _svfprintf_r
+ .text._read_r  0x080105fc       0x24 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-readr.o)
+                0x080105fc                _read_r
  .text._malloc_usable_size_r
-                0x08016590       0x10 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-nano-msizer.o)
-                0x08016590                _malloc_usable_size_r
+                0x08010620       0x10 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-nano-msizer.o)
+                0x08010620                _malloc_usable_size_r
  *(.init)
- .init          0x080165a0        0x4 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crti.o
-                0x080165a0                _init
- .init          0x080165a4        0x8 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crtn.o
+ .init          0x08010630        0x4 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crti.o
+                0x08010630                _init
+ .init          0x08010634        0x8 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crtn.o
  *(.fini)
- .fini          0x080165ac        0x4 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crti.o
-                0x080165ac                _fini
- .fini          0x080165b0        0x8 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crtn.o
+ .fini          0x0801063c        0x4 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crti.o
+                0x0801063c                _fini
+ .fini          0x08010640        0x8 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crtn.o
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -4936,152 +4804,151 @@ LOAD c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib
  *(.dtors)
  *(.rodata*)
  .rodata.analogin_init.str1.1
-                0x080165b8       0xb2 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/analogin_api.o
+                0x08010648       0xb2 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/analogin_api.o
  .rodata.Set_GPIO_Clock.str1.1
-                0x0801666a       0x21 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/gpio_api.o
+                0x080106fa       0x21 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/gpio_api.o
  .rodata.gpio_set.str1.1
-                0x0801668b       0x6a C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/gpio_api.o
- .rodata._ZN12SingletonPtrI13PlatformMutexE3getEv.str1.1
-                0x080166f5       0x70 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/mbed_retarget.o
+                0x0801071b       0x6a C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/gpio_api.o
  .rodata._Znwj.str1.1
-                0x08016765       0x1d C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/mbed_retarget.o
- *fill*         0x08016782        0x2 
+                0x08010785       0x1d C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/mbed_retarget.o
+ *fill*         0x080107a2        0x2 
  .rodata.PinMap_ADC
-                0x08016784       0xb4 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/PeripheralPins.o
-                0x08016784                PinMap_ADC
+                0x080107a4       0xb4 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/PeripheralPins.o
+                0x080107a4                PinMap_ADC
  .rodata.PinMap_ADC_Internal
-                0x08016838       0x30 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/PeripheralPins.o
-                0x08016838                PinMap_ADC_Internal
+                0x08010858       0x30 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/PeripheralPins.o
+                0x08010858                PinMap_ADC_Internal
  .rodata.PinMap_PWM
-                0x08016868      0x150 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/PeripheralPins.o
-                0x08016868                PinMap_PWM
+                0x08010888      0x150 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/PeripheralPins.o
+                0x08010888                PinMap_PWM
  .rodata.PinMap_UART_RX
-                0x080169b8       0x54 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/PeripheralPins.o
-                0x080169b8                PinMap_UART_RX
+                0x080109d8       0x54 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/PeripheralPins.o
+                0x080109d8                PinMap_UART_RX
  .rodata.PinMap_UART_TX
-                0x08016a0c       0x54 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/PeripheralPins.o
-                0x08016a0c                PinMap_UART_TX
+                0x08010a2c       0x54 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/PeripheralPins.o
+                0x08010a2c                PinMap_UART_TX
  .rodata.ll_pin_defines
-                0x08016a60       0x40 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/pinmap.o
-                0x08016a60                ll_pin_defines
+                0x08010a80       0x40 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/pinmap.o
+                0x08010a80                ll_pin_defines
  .rodata.pin_function.str1.1
-                0x08016aa0       0x57 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/pinmap.o
+                0x08010ac0       0x57 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/pinmap.o
                                  0x6a (size before relaxing)
  .rodata.pwmout_init.str1.1
-                0x08016af7       0x71 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/pwmout_api.o
+                0x08010b17       0x71 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/pwmout_api.o
                                  0x8a (size before relaxing)
  .rodata.pwmout_period_us.str1.1
-                0x08016b68       0x15 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/pwmout_api.o
+                0x08010b88       0x15 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/pwmout_api.o
  .rodata.pwmout_write.str1.1
-                0x08016b7d       0x17 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/pwmout_api.o
+                0x08010b9d       0x17 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/pwmout_api.o
  .rodata.pwm_apb_map_table
-                0x08016b94       0x48 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/pwmout_device.o
-                0x08016b94                pwm_apb_map_table
+                0x08010bb4       0x48 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/pwmout_device.o
+                0x08010bb4                pwm_apb_map_table
  .rodata.init_uart.str1.1
-                0x08016bdc       0x18 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/serial_api.o
+                0x08010bfc       0x18 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/serial_api.o
  .rodata.serial_init.str1.1
-                0x08016bf4       0x84 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/serial_api.o
+                0x08010c14       0x84 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/serial_api.o
  .rodata.APBAHBPrescTable
-                0x08016c78       0x10 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_rcc.o
-                0x08016c78                APBAHBPrescTable
+                0x08010c98       0x10 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_rcc.o
+                0x08010c98                APBAHBPrescTable
  .rodata.AHBPrescTable
-                0x08016c88       0x10 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/system_stm32f4xx.o
-                0x08016c88                AHBPrescTable
+                0x08010ca8       0x10 C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/system_stm32f4xx.o
+                0x08010ca8                AHBPrescTable
  .rodata._ZTVN4mbed8AnalogInE
-                0x08016c98       0x18 MW_AnalogInput.o
-                0x08016c98                vtable for mbed::AnalogIn
- .rodata.rtM    0x08016cb0        0x4 motoraiHIL.o
-                0x08016cb0                rtM
- *fill*         0x08016cb4        0x4 
+                0x08010cb8       0x18 MW_AnalogInput.o
+                0x08010cb8                vtable for mbed::AnalogIn
+ .rodata._ZN4mbed8AnalogIn4lockEv.str1.4
+                0x08010cd0       0x74 MW_AnalogInput.o
+ .rodata.rtM    0x08010d44        0x4 motoraiHIL.o
+                0x08010d44                rtM
  .rodata.rtConstP
-                0x08016cb8    0x33538 motoraiHIL_data.o
-                0x08016cb8                rtConstP
+                0x08010d48    0x33538 motoraiHIL_data.o
+                0x08010d48                rtConstP
  .rodata.us_data
-                0x0804a1f0        0x8 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_us_ticker_api.o)
+                0x08044280        0x8 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_us_ticker_api.o)
  .rodata.us_interface
-                0x0804a1f8       0x14 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_us_ticker_api.o)
+                0x08044288       0x14 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_us_ticker_api.o)
  .rodata.mbed_assert_internal.str1.1
-                0x0804a20c       0x31 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_assert.o)
+                0x0804429c       0x31 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_assert.o)
  .rodata.pinmap_function.str1.1
-                0x0804a23d       0x1e C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_pinmap_common.o)
+                0x080442cd       0x1e C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_pinmap_common.o)
  .rodata.pinmap_merge.str1.1
-                0x0804a25b       0x11 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_pinmap_common.o)
+                0x080442eb       0x11 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_pinmap_common.o)
  .rodata.pinmap_peripheral.str1.1
-                0x0804a26c       0x20 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_pinmap_common.o)
+                0x080442fc       0x20 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_pinmap_common.o)
  .rodata.pinmap_pinout.str1.1
-                0x0804a28c       0x11 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_pinmap_common.o)
+                0x0804431c       0x11 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_pinmap_common.o)
  .rodata.core_util_critical_section_enter.str1.1
-                0x0804a29d       0x8c C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_critical.o)
- *fill*         0x0804a329        0x3 
+                0x0804432d       0x8c C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_critical.o)
+ *fill*         0x080443b9        0x3 
  .rodata.exp.str1.4
-                0x0804a32c        0x4 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-w_exp.o)
+                0x080443bc        0x4 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-w_exp.o)
  .rodata.log10.str1.4
-                0x0804a330        0x6 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-w_log10.o)
+                0x080443c0        0x6 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-w_log10.o)
                                   0x9 (size before relaxing)
- *fill*         0x0804a336        0x2 
+ *fill*         0x080443c6        0x2 
  .rodata.pow.str1.4
-                0x0804a338        0x4 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-w_pow.o)
+                0x080443c8        0x4 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-w_pow.o)
  .rodata.sqrt.str1.4
-                0x0804a33c        0x8 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-w_sqrt.o)
+                0x080443cc        0x8 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-w_sqrt.o)
                                   0x5 (size before relaxing)
- *fill*         0x0804a344        0x4 
- .rodata.halF   0x0804a348       0x10 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-e_exp.o)
- .rodata.ln2HI  0x0804a358       0x10 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-e_exp.o)
- .rodata.ln2LO  0x0804a368       0x10 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-e_exp.o)
+ *fill*         0x080443d4        0x4 
+ .rodata.halF   0x080443d8       0x10 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-e_exp.o)
+ .rodata.ln2HI  0x080443e8       0x10 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-e_exp.o)
+ .rodata.ln2LO  0x080443f8       0x10 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-e_exp.o)
  .rodata.__ieee754_pow.str1.4
-                0x0804a378        0x1 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-e_pow.o)
- .rodata.TWO52  0x0804a378       0x10 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-s_rint.o)
+                0x08044408        0x1 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-e_pow.o)
+ .rodata.TWO52  0x08044408       0x10 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-s_rint.o)
  .rodata.__sf_fake_stderr
-                0x0804a388       0x20 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-findfp.o)
-                0x0804a388                __sf_fake_stderr
+                0x08044418       0x20 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-findfp.o)
+                0x08044418                __sf_fake_stderr
  .rodata.__sf_fake_stdin
-                0x0804a3a8       0x20 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-findfp.o)
-                0x0804a3a8                __sf_fake_stdin
+                0x08044438       0x20 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-findfp.o)
+                0x08044438                __sf_fake_stdin
  .rodata.__sf_fake_stdout
-                0x0804a3c8       0x20 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-findfp.o)
-                0x0804a3c8                __sf_fake_stdout
+                0x08044458       0x20 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-findfp.o)
+                0x08044458                __sf_fake_stdout
  .rodata._global_impure_ptr
-                0x0804a3e8        0x4 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-impure.o)
-                0x0804a3e8                _global_impure_ptr
+                0x08044478        0x4 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-impure.o)
+                0x08044478                _global_impure_ptr
  .rodata._printf_i.str1.1
-                0x0804a3ec       0x22 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0804447c       0x22 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-nano-vfprintf_i.o)
  .rodata._svfprintf_r.str1.1
-                0x0804a40e       0x11 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-nano-svfprintf.o)
+                0x0804449e       0x11 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-nano-svfprintf.o)
  *(.eh_frame*)
- *fill*         0x0804a41f        0x1 
- .eh_frame      0x0804a420        0x0 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crtbegin.o
- .eh_frame      0x0804a420        0x4 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crtend.o
+ *fill*         0x080444af        0x1 
+ .eh_frame      0x080444b0        0x0 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crtbegin.o
+ .eh_frame      0x080444b0        0x4 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crtend.o
 
-.glue_7         0x0804a424        0x0
- .glue_7        0x0804a424        0x0 linker stubs
+.glue_7         0x080444b4        0x0
+ .glue_7        0x080444b4        0x0 linker stubs
 
-.glue_7t        0x0804a424        0x0
- .glue_7t       0x0804a424        0x0 linker stubs
+.glue_7t        0x080444b4        0x0
+ .glue_7t       0x080444b4        0x0 linker stubs
 
-.vfp11_veneer   0x0804a424        0x0
- .vfp11_veneer  0x0804a424        0x0 linker stubs
+.vfp11_veneer   0x080444b4        0x0
+ .vfp11_veneer  0x080444b4        0x0 linker stubs
 
-.v4_bx          0x0804a424        0x0
- .v4_bx         0x0804a424        0x0 linker stubs
+.v4_bx          0x080444b4        0x0
+ .v4_bx         0x080444b4        0x0 linker stubs
 
-.iplt           0x0804a424        0x0
- .iplt          0x0804a424        0x0 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crtbegin.o
+.iplt           0x080444b4        0x0
+ .iplt          0x080444b4        0x0 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0804a424                __exidx_start = .
+                0x080444b4                __exidx_start = .
 
-.ARM.exidx      0x0804a424        0x8
+.ARM.exidx      0x080444b4        0x8
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
- .ARM.exidx     0x0804a424        0x8 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/crt0.o
-                0x0804a42c                __exidx_end = .
-                0x0804a42c                __etext = .
-                0x0804a42c                _sidata = .
+ .ARM.exidx     0x080444b4        0x8 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp/crt0.o
+                0x080444bc                __exidx_end = .
+                0x080444bc                __etext = .
+                0x080444bc                _sidata = .
 
-.rel.dyn        0x0804a42c        0x0
- .rel.iplt      0x0804a42c        0x0 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crtbegin.o
+.rel.dyn        0x080444bc        0x0
+ .rel.iplt      0x080444bc        0x0 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crtbegin.o
 
-.data           0x20000198      0x300 load address 0x0804a42c
+.data           0x20000198      0x300 load address 0x080444bc
                 0x20000198                __data_start__ = .
                 0x20000198                _sdata = .
  *(vtable)
@@ -5124,10 +4991,10 @@ LOAD c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib
                 0x20000498                __data_end__ = .
                 0x20000498                _edata = .
 
-.igot.plt       0x20000498        0x0 load address 0x0804a72c
+.igot.plt       0x20000498        0x0 load address 0x080447bc
  .igot.plt      0x20000498        0x0 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crtbegin.o
 
-.bss            0x20000498     0x234c load address 0x0804a730
+.bss            0x20000498     0x2350 load address 0x080447c0
                 0x20000498                . = ALIGN (0x4)
                 0x20000498                __bss_start__ = .
                 0x20000498                _sbss = .
@@ -5164,9 +5031,9 @@ LOAD c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib
                 0x2000080d        0x1 ert_main.o
                 0x2000080d                stopRequested
  *fill*         0x2000080e        0x2 
- .bss.dnls_buffer.12718
+ .bss.dnls_buffer.12620
                 0x20000810       0x10 motoraiHIL.o
- .bss.dnls_buffer.12723
+ .bss.dnls_buffer.12625
                 0x20000820       0x10 motoraiHIL.o
  .bss._ZN4mbed8AnalogIn6_mutexE
                 0x20000830        0x8 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(AnalogIn.o)
@@ -5196,29 +5063,31 @@ LOAD c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib
                 0x20000924                schdl_counter_max
                 0x20000928                schdl_counter
  *fill*         0x2000092c        0x4 
- COMMON         0x20000930     0x1eb0 motoraiHIL.o
-                0x20000930                rtNaNF
-                0x20000934                rtM_
-                0x2000093c                rtInfF
-                0x20000940                rtInf
-                0x20000948                rtDW
-                0x200027c8                rtNaN
-                0x200027d0                rtMinusInf
-                0x200027d8                rtPrevZCX
-                0x200027dc                rtMinusInfF
- COMMON         0x200027e0        0x4 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-reent.o)
-                0x200027e0                errno
-                0x200027e4                . = ALIGN (0x4)
-                0x200027e4                __bss_end__ = .
-                0x200027e4                _ebss = .
+ COMMON         0x20000930     0x1e89 motoraiHIL.o
+                0x20000930                rtM_
+                0x20000938                rtDW
+                0x200027b8                rtPrevZCX
+ *fill*         0x200027b9        0x7 
+ COMMON         0x200027c0       0x24 ../slprj/ert/_sharedutils/rtwshared.lib(rt_nonfinite.o)
+                0x200027c0                rtNaNF
+                0x200027c4                rtInfF
+                0x200027c8                rtInf
+                0x200027d0                rtNaN
+                0x200027d8                rtMinusInf
+                0x200027e0                rtMinusInfF
+ COMMON         0x200027e4        0x4 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-reent.o)
+                0x200027e4                errno
+                0x200027e8                . = ALIGN (0x4)
+                0x200027e8                __bss_end__ = .
+                0x200027e8                _ebss = .
 
-.heap           0x200027e4        0x0
-                0x200027e4                __end__ = .
-                0x200027e4                end = __end__
+.heap           0x200027e8        0x0
+                0x200027e8                __end__ = .
+                0x200027e8                end = __end__
  *(.heap*)
-                0x200027e4                __HeapLimit = .
+                0x200027e8                __HeapLimit = .
 
-.stack_dummy    0x200027e4        0x0
+.stack_dummy    0x200027e8        0x0
  *(.stack*)
                 0x20020000                __StackTop = (ORIGIN (RAM) + LENGTH (RAM))
                 0x20020000                _estack = __StackTop
@@ -5298,127 +5167,143 @@ OUTPUT(../motoraiHIL.elf elf32-littlearm)
  .ARM.attributes
                 0x000006d0       0x37 mw_mbed_interface.o
  .ARM.attributes
-                0x00000707       0x37 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(AnalogIn.o)
+                0x00000707       0x37 ../slprj/ert/_sharedutils/rtwshared.lib(MWDSP_EPH_R_B.o)
  .ARM.attributes
-                0x0000073e       0x37 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_gpio.o)
+                0x0000073e       0x37 ../slprj/ert/_sharedutils/rtwshared.lib(inv_6TJweJmr.o)
  .ARM.attributes
-                0x00000775       0x37 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_us_ticker_api.o)
+                0x00000775       0x37 ../slprj/ert/_sharedutils/rtwshared.lib(inv_t6RrLIHb.o)
  .ARM.attributes
-                0x000007ac       0x37 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_assert.o)
+                0x000007ac       0x37 ../slprj/ert/_sharedutils/rtwshared.lib(rt_nonfinite.o)
  .ARM.attributes
-                0x000007e3       0x37 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_pinmap_common.o)
+                0x000007e3       0x37 ../slprj/ert/_sharedutils/rtwshared.lib(rt_powd_snf.o)
  .ARM.attributes
-                0x0000081a       0x37 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_ticker_api.o)
+                0x0000081a       0x37 ../slprj/ert/_sharedutils/rtwshared.lib(xnrm2_ooZ215qV.o)
  .ARM.attributes
-                0x00000851       0x37 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_error.o)
+                0x00000851       0x37 ../slprj/ert/_sharedutils/rtwshared.lib(rtGetInf.o)
  .ARM.attributes
-                0x00000888       0x37 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_critical.o)
+                0x00000888       0x37 ../slprj/ert/_sharedutils/rtwshared.lib(rtGetNaN.o)
  .ARM.attributes
-                0x000008bf       0x37 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_wait_api_no_rtos.o)
+                0x000008bf       0x37 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(AnalogIn.o)
  .ARM.attributes
-                0x000008f6       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-s_fabs.o)
+                0x000008f6       0x37 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_gpio.o)
  .ARM.attributes
-                0x00000928       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-s_floor.o)
+                0x0000092d       0x37 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_us_ticker_api.o)
  .ARM.attributes
-                0x0000095a       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-w_exp.o)
+                0x00000964       0x37 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_assert.o)
  .ARM.attributes
-                0x0000098c       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-w_log10.o)
+                0x0000099b       0x37 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_pinmap_common.o)
  .ARM.attributes
-                0x000009be       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-w_pow.o)
+                0x000009d2       0x37 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_ticker_api.o)
  .ARM.attributes
-                0x000009f0       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-w_sqrt.o)
+                0x00000a09       0x37 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_error.o)
  .ARM.attributes
-                0x00000a22       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-e_exp.o)
+                0x00000a40       0x37 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_critical.o)
  .ARM.attributes
-                0x00000a54       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-e_log10.o)
+                0x00000a77       0x37 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_wait_api_no_rtos.o)
  .ARM.attributes
-                0x00000a86       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-e_pow.o)
+                0x00000aae       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-s_fabs.o)
  .ARM.attributes
-                0x00000ab8       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-e_sqrt.o)
+                0x00000ae0       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-s_floor.o)
  .ARM.attributes
-                0x00000aea       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-s_finite.o)
+                0x00000b12       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-w_exp.o)
  .ARM.attributes
-                0x00000b1c       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-s_lib_ver.o)
+                0x00000b44       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-w_log10.o)
  .ARM.attributes
-                0x00000b4e       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-s_matherr.o)
+                0x00000b76       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-w_pow.o)
  .ARM.attributes
-                0x00000b80       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-s_nan.o)
+                0x00000ba8       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-w_sqrt.o)
  .ARM.attributes
-                0x00000bb2       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-s_rint.o)
+                0x00000bda       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-e_exp.o)
  .ARM.attributes
-                0x00000be4       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-s_scalbn.o)
+                0x00000c0c       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-e_log10.o)
  .ARM.attributes
-                0x00000c16       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-e_log.o)
+                0x00000c3e       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-e_pow.o)
  .ARM.attributes
-                0x00000c48       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-s_copysign.o)
+                0x00000c70       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-e_sqrt.o)
  .ARM.attributes
-                0x00000c7a       0x22 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libgcc.a(_arm_addsubdf3.o)
+                0x00000ca2       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-s_finite.o)
  .ARM.attributes
-                0x00000c9c       0x22 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libgcc.a(_arm_muldivdf3.o)
+                0x00000cd4       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-s_lib_ver.o)
  .ARM.attributes
-                0x00000cbe       0x22 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libgcc.a(_arm_cmpdf2.o)
+                0x00000d06       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-s_matherr.o)
  .ARM.attributes
-                0x00000ce0       0x22 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libgcc.a(_arm_unorddf2.o)
+                0x00000d38       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-s_nan.o)
  .ARM.attributes
-                0x00000d02       0x22 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libgcc.a(_arm_fixdfsi.o)
+                0x00000d6a       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-s_rint.o)
  .ARM.attributes
-                0x00000d24       0x22 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libgcc.a(_arm_truncdfsf2.o)
+                0x00000d9c       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-s_scalbn.o)
  .ARM.attributes
-                0x00000d46       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-errno.o)
+                0x00000dce       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-e_log.o)
  .ARM.attributes
-                0x00000d78       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-exit.o)
+                0x00000e00       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libm.a(lib_a-s_copysign.o)
  .ARM.attributes
-                0x00000daa       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-fflush.o)
+                0x00000e32       0x22 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libgcc.a(_arm_addsubdf3.o)
  .ARM.attributes
-                0x00000ddc       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-findfp.o)
+                0x00000e54       0x22 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libgcc.a(_arm_muldivdf3.o)
  .ARM.attributes
-                0x00000e0e       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-fwalk.o)
+                0x00000e76       0x22 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libgcc.a(_arm_cmpdf2.o)
  .ARM.attributes
-                0x00000e40       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-impure.o)
+                0x00000e98       0x22 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libgcc.a(_arm_unorddf2.o)
  .ARM.attributes
-                0x00000e72       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-init.o)
+                0x00000eba       0x22 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libgcc.a(_arm_fixdfsi.o)
  .ARM.attributes
-                0x00000ea4       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-malloc.o)
+                0x00000edc       0x22 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libgcc.a(_arm_truncdfsf2.o)
  .ARM.attributes
-                0x00000ed6       0x20 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-memchr.o)
+                0x00000efe       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-errno.o)
  .ARM.attributes
-                0x00000ef6       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-memcpy-stub.o)
+                0x00000f30       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-exit.o)
  .ARM.attributes
-                0x00000f28       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-memset.o)
+                0x00000f62       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-fflush.o)
  .ARM.attributes
-                0x00000f5a       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-nano-freer.o)
+                0x00000f94       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-findfp.o)
  .ARM.attributes
-                0x00000f8c       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-nano-mallocr.o)
+                0x00000fc6       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-fwalk.o)
  .ARM.attributes
-                0x00000fbe       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x00000ff8       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-impure.o)
  .ARM.attributes
-                0x00000ff0       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-reent.o)
+                0x0000102a       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-init.o)
  .ARM.attributes
-                0x00001022       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-sbrkr.o)
+                0x0000105c       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-malloc.o)
  .ARM.attributes
-                0x00001054       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-stdio.o)
+                0x0000108e       0x20 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-memchr.o)
  .ARM.attributes
-                0x00001086       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-vsnprintf.o)
+                0x000010ae       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-memcpy-stub.o)
  .ARM.attributes
-                0x000010b8       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-writer.o)
+                0x000010e0       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-memset.o)
  .ARM.attributes
-                0x000010ea       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-closer.o)
+                0x00001112       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-nano-freer.o)
  .ARM.attributes
-                0x0000111c       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-lseekr.o)
+                0x00001144       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-nano-mallocr.o)
  .ARM.attributes
-                0x0000114e       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-memmove.o)
+                0x00001176       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-nano-vfprintf_i.o)
  .ARM.attributes
-                0x00001180       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-nano-reallocr.o)
+                0x000011a8       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-reent.o)
  .ARM.attributes
-                0x000011b2       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-nano-svfprintf.o)
+                0x000011da       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-sbrkr.o)
  .ARM.attributes
-                0x000011e4       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-readr.o)
+                0x0000120c       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-stdio.o)
  .ARM.attributes
-                0x00001216       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-nano-msizer.o)
+                0x0000123e       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-vsnprintf.o)
  .ARM.attributes
-                0x00001248       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crtend.o
+                0x00001270       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-writer.o)
  .ARM.attributes
-                0x0000127a       0x22 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crtn.o
+                0x000012a2       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-closer.o)
+ .ARM.attributes
+                0x000012d4       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-lseekr.o)
+ .ARM.attributes
+                0x00001306       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-memmove.o)
+ .ARM.attributes
+                0x00001338       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-nano-reallocr.o)
+ .ARM.attributes
+                0x0000136a       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-nano-svfprintf.o)
+ .ARM.attributes
+                0x0000139c       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-readr.o)
+ .ARM.attributes
+                0x000013ce       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libc_nano.a(lib_a-nano-msizer.o)
+ .ARM.attributes
+                0x00001400       0x32 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crtend.o
+ .ARM.attributes
+                0x00001432       0x22 c:/progra~3/matlab/suppor~1/r2018b/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp/crtn.o
 
 .comment        0x00000000       0xfd
  .comment       0x00000000       0x7f C:/PROGRA~3/MATLAB/SUPPOR~1/R2018b/3P778C~1.INS/MBEDLI~1.INS/0F0230~1/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/analogin_api.o
@@ -5453,6 +5338,14 @@ OUTPUT(../motoraiHIL.elf elf32-littlearm)
  .comment       0x000000fd       0x7f motoraiHIL.o
  .comment       0x000000fd       0x7f motoraiHIL_data.o
  .comment       0x000000fd       0x7f mw_mbed_interface.o
+ .comment       0x000000fd       0x7f ../slprj/ert/_sharedutils/rtwshared.lib(MWDSP_EPH_R_B.o)
+ .comment       0x000000fd       0x7f ../slprj/ert/_sharedutils/rtwshared.lib(inv_6TJweJmr.o)
+ .comment       0x000000fd       0x7f ../slprj/ert/_sharedutils/rtwshared.lib(inv_t6RrLIHb.o)
+ .comment       0x000000fd       0x7f ../slprj/ert/_sharedutils/rtwshared.lib(rt_nonfinite.o)
+ .comment       0x000000fd       0x7f ../slprj/ert/_sharedutils/rtwshared.lib(rt_powd_snf.o)
+ .comment       0x000000fd       0x7f ../slprj/ert/_sharedutils/rtwshared.lib(xnrm2_ooZ215qV.o)
+ .comment       0x000000fd       0x7f ../slprj/ert/_sharedutils/rtwshared.lib(rtGetInf.o)
+ .comment       0x000000fd       0x7f ../slprj/ert/_sharedutils/rtwshared.lib(rtGetNaN.o)
  .comment       0x000000fd       0x80 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(AnalogIn.o)
  .comment       0x000000fd       0x80 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_gpio.o)
  .comment       0x000000fd       0x80 C:/ProgramData/MATLAB/SupportPackages/R2018b/3P.instrset/mbedlibrary-stm.instrset/0f02307a0877/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_us_ticker_api.o)

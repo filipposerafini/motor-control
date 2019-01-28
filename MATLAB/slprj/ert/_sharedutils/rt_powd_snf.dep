@@ -1,0 +1,17 @@
+../slprj/ert/_sharedutils/rt_powd_snf.o: \
+ ../slprj/ert/_sharedutils/rt_powd_snf.c \
+ ../slprj/ert/_sharedutils/rtwtypes.h \
+ ../slprj/ert/_sharedutils/rtGetNaN.h \
+ ../slprj/ert/_sharedutils/rt_nonfinite.h \
+ ../slprj/ert/_sharedutils/rtGetInf.h \
+ ../slprj/ert/_sharedutils/rt_powd_snf.h
+
+../slprj/ert/_sharedutils/rtwtypes.h:
+
+../slprj/ert/_sharedutils/rtGetNaN.h:
+
+../slprj/ert/_sharedutils/rt_nonfinite.h:
+
+../slprj/ert/_sharedutils/rtGetInf.h:
+
+../slprj/ert/_sharedutils/rt_powd_snf.h:
